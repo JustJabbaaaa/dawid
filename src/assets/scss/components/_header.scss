@@ -1,24 +1,24 @@
 @use '../abstracts/variables' as *;
-
+.header::after{
+  content: "";
+  position: absolute;
+  bottom:0;
+  right: 0;
+  width: 70%;
+  height: 3px;
+  background: #b59464;
+  z-index: 3;
+}
 #Header {
  position: relative;
-  height: 400px;
+  height: 660px;
   overflow: visible;
   color: white;
   text-align: center;
-  .header{
-  
-  }
   &.section {
     padding: 0;
   }
-  & .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-  }
+
   .background{
     position: absolute;
     top: 0;
@@ -27,17 +27,18 @@
     flex-direction:row;
     justify-content: flex-end;
     img{
-      height:400px;
+      height:660px;
+      object-fit:cover;
     }
     .herb{
-      width:1000px;
+      width:60%;
     }
   }
   .main-image {
   position: absolute;
   z-index: 2;
-  top:-200px;
-  left: 65%;
+  top:-150px;
+  left: 60%;
   transform: translateX(-50%);
   width: 700px; 
   height: auto;

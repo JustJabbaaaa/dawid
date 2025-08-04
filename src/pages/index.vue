@@ -66,5 +66,6 @@
   <div class="app home">
     <Navbar />
     <Header />
+    <About />
   </div>
 </template>

@@ -17,10 +17,6 @@ body {
   margin: 0;
   line-height: 1.25;
   box-sizing: border-box;
-
-  & > div {
-    overflow-x: hidden;
-  }
 }
 
 body,
