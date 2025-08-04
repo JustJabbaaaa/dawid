@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 const active = ref(false);
 
 const navigation = computed(() => [
@@ -38,7 +38,7 @@ onUnmounted(() => {
   <div id="Navbar">
     <nav class="nav">
       <div class="container">
-        <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage"><NuxtImg src="/images/logo/nuxt.svg" alt="Nuxt logo" height="60" width="60"/></NuxtLink>
+        <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage">Your Candidate for<br/>Mayor of <span>Oranienburg</span></NuxtLink>
         <button class="nav__toggler" type="button" aria-label="Toggle navigation" @click="active = !active">
           <div class="nav__toggler--btn" :class="{ 'active': active }">
             <span></span>
@@ -60,5 +60,31 @@ onUnmounted(() => {
         </div>
       </div>
     </nav>
+  </div>
+</template> -->
+<template>
+  <div id="Navbar">
+    <div class="nav">
+      <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage">Your Candidate for<br/>Mayor of <span>Oranienburg</span></NuxtLink>
+      <div class="nav__buttons">
+        <div class="nav__buttons--navMenu">
+          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">About</NuxtLink></li>
+          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">Vision</NuxtLink></li>
+          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">Contact</NuxtLink></li>
+        </div>
+        <div class="nav__buttons--navSocials">
+          <div class="socials">
+          <NuxtImg src="images/navbar/twitter.svg" alt="facebook" class="social"/>
+          <NuxtImg src="images/navbar/fb.svg" alt="facebook" class="social"/>
+          <NuxtImg src="images/navbar/insta.svg" alt="facebook" class="social"/>
+          </div>
+          <div class="langs">
+            <div class="lang active">EN</div>
+            <span>/</span>
+            <div class="lang">GB</div>
+          </div>
+        </div>
+      </div>
+      </div>
   </div>
 </template>

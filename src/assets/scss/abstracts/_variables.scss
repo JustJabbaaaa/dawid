@@ -8,11 +8,11 @@ $black-color: #000;
 $dark-color: #141414;
 $dark-light: color.adjust($dark-color, $lightness: 10%);
 
-$primary-color: #e13428;
+$primary-color: #351e7f;
 $primary-dark: color.adjust($primary-color, $lightness: -10%);
 $primary-light: color.adjust($primary-color, $lightness: 10%);
 
-$secondary-color: #989ca2;
+$secondary-color: #ff7418;
 $secondary-dark: color.adjust($secondary-color, $lightness: -10%);
 $secondary-light: color.adjust($secondary-color, $lightness: 10%);
 

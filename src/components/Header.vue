@@ -1,15 +1,11 @@
 <template>
-  <Section anchor="Header">
-    <div class="header__content">
-      <div class="header__description">
-        <span class="header__description--subtitle">Build amazing web experiences</span>
-        <h1 class="header__description--title">Nuxt-Starter</h1>
-        <p class="header__description--text">Experience the power of Nuxt.js with this responsive, fast, and modern starter project.</p>
-      </div>
-      <div class="header__buttons">
-        <NuxtLink to="https://github.com/nuxt/nuxt" class="btn btn-primary" target="_blank">NuxtJs</NuxtLink>
-        <NuxtLink to="https://github.com/konkol00/nuxt-starter" class="btn btn-secondary--outline" target="_blank">View Repo</NuxtLink>
-      </div>
-    </div>   
+  <Section anchor="Header" class="header">
+    <div class="main-image">
+      <NuxtImg src="/images/header/heiko-zillmann.webp" alt="Header Image"/>
+    </div>
+    <div class="background">
+      <NuxtImg src="/images/header/head_bg.jpg" alt="Header Image"  class="herb"/>
+      <NuxtImg src="/images/header/building.webp" alt="Header Image" class="building"/>
+    </div>
   </Section>
 </template>

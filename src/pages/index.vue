@@ -66,42 +66,5 @@
   <div class="app home">
     <Navbar />
     <Header />
-    <Section anchor="About" title="About us" subtitle="The power of Vue Components" grid="2">
-      <div class="about__content">
-        <h3>{{ about.title }}</h3>
-        <p>{{ about.description }}</p>
-      </div>
-      <div class="about__image">
-        <NuxtImg src="/images/about/about_image.webp" alt="Section Image" height="800" width="800" loading="lazy" />
-      </div>
-    </Section>
-    <Section anchor="Services" title="Services" subtitle="Compose with everything you need." grid="4">
-      <div v-for="item in services" :key="item.title" class="services__card">
-        <div class="services__card--icon">
-          <mdicon :name="item.icon" :width="25" :height="25" />
-        </div>
-        <div class="services__card--title">
-          <p>{{ item.title }}</p>
-        </div>
-        <div class="services__card--description">
-          <p>{{ item.description }}</p>
-        </div>
-      </div>
-    </Section>
-    <Section anchor="Contact" title="Contact" subtitle="Build amazing web sites." grid="1">
-      <div class="contact__content">
-        <div class="contact__content--title">
-          <h3>{{ contact.title }}</h3>
-        </div>
-        <div class="contact__content--description">
-          <p>{{ contact.description }}</p>
-        </div>
-        <div class="contact__content--buttons">
-          <NuxtLink :to="`mailto:${contact.mail}`" class="btn btn-primary" target="_blank">{{ contact.btnMail }}</NuxtLink>
-          <NuxtLink :to="`tel:${contact.phone}`" class="btn btn-secondary--outline" target="_blank">{{ contact.btnCall }}</NuxtLink>
-        </div>
-      </div>
-    </Section>
-    <Footer />
   </div>
 </template>
