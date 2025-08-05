@@ -69,5 +69,6 @@
     <About />
     <Description/>
     <Banner/>
+    <Footer/>
   </div>
 </template>

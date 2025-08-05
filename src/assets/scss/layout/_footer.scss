@@ -1,24 +1,71 @@
 @use '../abstracts/variables' as *;
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem 1.25rem;
-  background: rgba($white-color, .75);
-  backdrop-filter: blur(5px);
-  box-shadow: 0 0 35px -15px rgba($secondary-dark, .5);
-  overflow: hidden;
-  &__body {
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.15rem;
-    line-height: 1;
-    & a {
-      font-weight: 600;
-      color: $primary-dark;
-      &:hover {
-        color: $primary-color;
+  font-family: 'Mona Sans';
+  background-image: url('images/footer/footer_bg.jpg');
+  padding:5rem 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height:600px;
+  &__top{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap:5rem;
+    &--support, &--iban{
+      width:50%;
+      justify-content: center;
+    }
+    &--support{
+      display:flex;
+      align-items: center;
+      flex-direction: row;
+      gap:2rem;
+      .icon{
+        background:$secondary-color;
+        border-radius:50%;
+        padding:1rem;
+        width:100px;
+        height:100px;
+        img{
+          transform: rotate(-15deg);
+        }
+      }
+      .text{
+        font-family: 'Mona Sans';
+        font-weight:700;
+        display:flex;
+        flex-direction: column;
+        color: $secondary-color;
+        font-size:4.2rem;
+        line-height: 0.99;
+        span{
+          color:#dbc09d;
+        }
+      }
+    }
+    &--vl{
+      height:200px;
+      border-left: 3px solid #351e7f;
+    }
+    &--iban{
+      font-size:1.75rem;
+      display:flex;
+      flex-direction: column;
+      .number{
+        font-weight:600;
+      }
+      .paymentIcons{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1rem;
+        img{
+          width:50px;
+        }
       }
     }
   }
