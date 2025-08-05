@@ -1,5 +1,5 @@
 <template>
     <Section anchor="Banner" class="banner">
-        <div>Ein Mann, ein Wort!</div>
+        <NuxtImg src="images/banner/text.svg"/>
     </Section>
 </template>

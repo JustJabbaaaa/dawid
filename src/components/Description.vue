@@ -1,7 +1,7 @@
 <template>
     <Section anchor="Description" class="description" grid="2">
         <div class="column">
-            <h1>“I don’t want to polarize –<br/> I want to unite.<br/>I want to be the common<br/>ground we all share.”</h1>
+            <NuxtImg src="/images/description/text.svg"/>
             <h2>This is not a political strategy.<br/>It’s a reflection of who he is.</h2>
             <p>Heiko Zillmann believes in the power of community – in a city where ideas are judged not by the color of a party flag, but by how they serve its people. He stands for a new style of leadership: transparent, approachable, unifying. A leadership that listens, understands, moderates – and then takes decisive action.</p>
             <p>His commitment doesn’t stop at city hall. He has made a lasting impact on civic life – especially through his long-standing work with children and youth in martial arts.
