@@ -67,5 +67,6 @@
     <Navbar />
     <Header />
     <About />
+    <Description/>
   </div>
 </template>

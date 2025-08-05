@@ -29,6 +29,10 @@
                     </div>
                 </div>
             </div>
+            <NuxtLink to="#" class="about__content--readMore">
+                <div>read more</div>
+                <NuxtImg src="/images/about/arrow_down.svg"/>
+            </NuxtLink>
         </div>
     </Section>
 </template>

@@ -1,0 +1,68 @@
+@use '../abstracts/variables' as *;
+#Description{
+    position:relative;
+    &.section{
+        padding-top:6rem;
+        background:#251162;
+    }
+    .column{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        h1{
+            font-family: 'Dancing Script';
+            font-weight:700;
+            line-height:4.5rem;
+            font-size:4rem;
+            color: #c7a77b;
+            font-style:italic;
+        }
+        h2{
+            font-size:2.25rem;
+            margin-bottom:1rem;
+        }
+        p{
+            font-size:1.5rem;
+        }
+        .images{
+            position:relative;
+            .photos{
+            display:flex;
+            flex-direction: row;
+            height:600px;
+            gap:1rem;
+
+            img{
+                width:350px;
+                height:505px;
+                object-fit: cover;
+                border-radius: 15px;
+                z-index:2;
+                &:nth-child(2){
+                    margin-top:2.5rem;
+                }
+            }
+        }
+         .placeholder{
+            position:absolute;
+            width:350px;
+            height:505px;
+            border-radius: 15px;
+            background:$primary-dark;
+            top:-2rem;
+            right:5rem;
+        }
+        .herb{
+            position:absolute;
+            top:-4rem;
+            right:13rem;
+            width:165px;
+            height:183px;
+            z-index:3;
+        }
+        }
+        &:nth-child(1){
+            margin-top:2rem;
+        }
+    }
+}

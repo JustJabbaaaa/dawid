@@ -1,15 +1,17 @@
 @use '../abstracts/variables' as *;
 
 #About {
+  margin: 0;
   padding:0;
   .container{
     padding:0;
     margin:0;
+    width:100vw;
+    max-width:100%;
   }
 }
 .about{
-  width:100vw;
-  height:700px;
+  height:900px;
   position:relative;
   z-index: 3;
   background: $primary-dark;
@@ -46,7 +48,7 @@
       z-index:1;
       .about__content--description{
         margin-bottom:-5rem;
-      max-width:900px;
+        max-width:800px;
       p{
         font-size:1.75rem;
         color:#b6976d;
@@ -63,6 +65,24 @@
       object-fit: cover;
       z-index:1;
       border-radius: 1.5rem;
+    } 
+    &--readMore{
+        display:flex;
+        flex-direction: row;
+        gap:2rem;
+        align-items: center;
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top:800px;
+        z-index:2;
+        color:white;
+        border:1px solid $secondary-color;
+        border-radius: 17px;
+        padding:0.75rem 1rem;
+        img{
+          height:10px;
+        }
     }
   }
 }
