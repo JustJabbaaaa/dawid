@@ -11,9 +11,9 @@
         </div>
         <div class="nav__buttons--navSocials">
           <div class="socials">
-          <NuxtImg src="images/navbar/twitter.svg" alt="facebook" class="social"/>
-          <NuxtImg src="images/navbar/fb.svg" alt="facebook" class="social"/>
-          <NuxtImg src="images/navbar/insta.svg" alt="facebook" class="social"/>
+            <NuxtLink to="http://www.x.com"><NuxtImg src="images/navbar/twitter.svg" alt="twitter" class="social"/></NuxtLink>
+            <NuxtLink to="http://www.facebook.com"><NuxtImg src="images/navbar/fb.svg" alt="facebook" class="social"/></NuxtLink>
+            <NuxtLink to="http://www.instagram.com"><NuxtImg src="images/navbar/insta.svg" alt="instagram" class="social"/></NuxtLink>
           </div>
           <div class="langs">
             <NuxtLink class="lang"@click.prevent="setLocale('en')" :class="{ 'active': locale === 'en' }">EN</NuxtLink>
