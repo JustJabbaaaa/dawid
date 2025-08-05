@@ -12,9 +12,12 @@ As a coach, mentor, and role model, he taught not just techniques, but values: d
                 <div class="photos">
                     <NuxtImg src="/images/description/heiko.webp"/>
                     <NuxtImg src="/images/description/tower.webp"/>
+                    <div class="other">
+                        <div class="placeholder"></div>
+                        <NuxtImg src="/images/description/herb.webp" class="herb"/>
+                    </div>
                 </div>
-                <div class="placeholder"></div>
-                <NuxtImg src="/images/description/herb.webp" class="herb"/>
+                
             </div>
             <p>People who know him will tell you: When Heiko commits, he commits fully. That’s also true in Oranienburg’s historic shooting club, where he quickly became an active member – and shortly after, won the title of Schützenkönig. Not because he aimed for it, but because wherever he goes, he steps up.</p>
             <p>Privately, Heiko is a man with strong family values. He lives in close, harmonious connection with his wife, his son, and his brothers. He maintains friendships with the same reliability he brings to his professional and political life.</p>

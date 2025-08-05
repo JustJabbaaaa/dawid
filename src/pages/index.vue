@@ -68,5 +68,6 @@
     <Header />
     <About />
     <Description/>
+    <Banner/>
   </div>
 </template>
