@@ -10,7 +10,11 @@
       <div class="building">
               <NuxtImg src="/images/header/building.webp" alt="Header Image"/>
       </div>
-
+    </div>
+    <div class="text">
+      <div class="name">Heiko</div>
+      <div class="surname">Zillmann</div>
+      <div class="title">Ein Mann, ein Wort!</div>
     </div>
   </Section>
 </template>
