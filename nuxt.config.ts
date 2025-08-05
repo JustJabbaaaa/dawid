@@ -4,10 +4,6 @@ export default defineNuxtConfig({
   ssr: true,
   srcDir: 'src/',
 
-  app: {
-    baseURL: '/nuxt-starter/'
-  },
-
   css: [
     'assets/scss/style.scss',
   ],
@@ -26,7 +22,7 @@ export default defineNuxtConfig({
     defaultLocale: 'de',
   },
   site: {
-    url: 'https://konkol00.github.io/',
+    url: '',
   },
 
   robots: { robotsTxt: false },
