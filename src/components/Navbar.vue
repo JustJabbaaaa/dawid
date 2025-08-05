@@ -65,7 +65,8 @@ onUnmounted(() => {
 <template>
   <div id="Navbar">
     <div class="nav">
-      <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage">Your Candidate for<br/>Mayor of <span>Oranienburg</span></NuxtLink>
+      <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage">
+        Your Candidate for<br/>Mayor of <NuxtImg src="/images/description/herb.webp"/><span>Oranienburg</span></NuxtLink>
       <div class="nav__buttons">
         <div class="nav__buttons--navMenu">
           <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">About</NuxtLink></li>
@@ -79,12 +80,15 @@ onUnmounted(() => {
           <NuxtImg src="images/navbar/insta.svg" alt="facebook" class="social"/>
           </div>
           <div class="langs">
-            <div class="lang active">EN</div>
+            <NuxtLink class="lang"@click.prevent="setLocale('en')" :class="{ 'active': locale === 'en' }">EN</NuxtLink>
             <span>/</span>
-            <div class="lang">GB</div>
+            <NuxtLink class="lang" @click.prevent="setLocale('de')" :class="{ 'active': locale === 'de' }">DE</NuxtLink>
           </div>
         </div>
       </div>
       </div>
   </div>
 </template>
+<script setup>
+const { setLocale, locale } = useI18n();
+</script>
