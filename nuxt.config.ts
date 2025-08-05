@@ -15,9 +15,16 @@ export default defineNuxtConfig({
   modules: [ 
     '@nuxtjs/seo',
     '@nuxt/image',
-    'nuxt-delay-hydration'
+    'nuxt-delay-hydration',
+    '@nuxtjs/i18n'
   ],
-
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'de', name: 'Deutsch', file: 'de.json' } 
+    ],
+    defaultLocale: 'de',
+  },
   site: {
     url: 'https://konkol00.github.io/',
   },
