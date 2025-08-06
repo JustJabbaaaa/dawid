@@ -2,7 +2,6 @@
 #Navbar{
   width:90vw;
   margin-left:auto;
-  padding:0 4rem;
   padding-top:2rem;
   letter-spacing: 1px;
   font-family: 'Mona Sans';
@@ -105,6 +104,45 @@
               color: #b59464;
             }
           }
+        }
+      }
+    }
+  }
+  @media screen and (max-width:1366px){
+    width:100%;
+    padding: 2rem 3rem 6rem 3rem;
+  }
+  @media screen and (max-width:1143px){
+    padding-left:1rem;
+    padding-right:1rem;
+    .nav{
+      &__brand{
+        margin:0;
+      }
+      &__buttons{
+        align-items:flex-end;
+        &--navSocials{
+          flex-direction: column;
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+  @media screen and (max-width:771px){
+    padding: 2rem 0;
+    .nav{
+      flex-direction: column;
+      align-items: center;
+      gap:1rem;
+      &__brand{
+        margin:0;
+        text-align:center;
+      }
+      &__buttons{
+        align-items:center;
+        &--navSocials{
+          flex-direction: row;
+          align-items: center;
         }
       }
     }

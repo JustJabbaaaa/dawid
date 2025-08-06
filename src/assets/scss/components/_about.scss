@@ -15,7 +15,7 @@
   max-height:1150px;
   position:relative;
   z-index: 3;
-  background:#251162;
+  background:#2a136d;
   padding-left:15vw;
   padding-bottom:2rem;
   padding-top:3rem;
@@ -161,6 +161,12 @@
           align-items: center;
         }
       }
+    }
+  }
+  @media screen and (min-width:1921px){
+    &__content{
+      max-width:1600px;
+      margin:auto;
     }
   }
 }

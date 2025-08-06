@@ -58,17 +58,6 @@
     object-fit: cover;
   }
 }
-@media screen and (min-width:1920px){
-      .building, .herb{
-        img{
-          width:50vw;
-        }
-      }
-      .main-image{
-        left:50%;
-        transform: translateX(-50%);
-      }
-    }
 .text{
   position: absolute;
   left: 15%;
@@ -104,6 +93,39 @@
   .title{
     margin-top:1.5rem;
     width:600px;
+  }
+}
+@media screen and (min-width:1921px){
+      .building, .herb{
+        img{
+          width:50vw;
+        }
+      }
+      .main-image{
+        left:50%;
+        transform: translateX(-50%);
+      }
+    }
+@media screen and (max-width:771px){
+  .main-image{
+    top:0;
+  }
+  .text{
+    left:auto;
+    top:auto;
+    bottom:5rem;
+    .name{
+      margin-left:0;
+    }
+  }
+  .main-image{
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .building, .herb{
+    img{
+      width:50vw;
+    }
   }
 }
 }
