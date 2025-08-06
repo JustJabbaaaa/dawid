@@ -39,7 +39,7 @@
               :class="{ active: showMore }"
             >
               <div>{{ showMore ? 'read less' : 'read more' }}</div>
-              <NuxtImg src="/images/about/arrow_down.svg"/>
+              <NuxtImg src="/images/about/arrow.svg"/>
             </NuxtLink>
           </div>
         </div>

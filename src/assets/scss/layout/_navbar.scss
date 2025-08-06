@@ -4,6 +4,7 @@
   margin-left:auto;
   padding:0 4rem;
   padding-top:2rem;
+  letter-spacing: 1px;
   font-family: 'Mona Sans';
   padding: 2rem 8rem 6rem 5rem;
   background:linear-gradient(90deg, #2f1b70, $primary-color, $primary-dark);
@@ -15,7 +16,6 @@
       margin: 0 0 0 2rem;
       color:white;
       font-size:2.5rem;
-      font-family: 'Mona Sans';
       img{
         height:2.5rem;
         margin-right:5px;
@@ -40,7 +40,7 @@
     &__buttons{
       display:flex;
       flex-direction: column;
-      gap:4rem;
+      gap:2rem;
       &--navMenu{
         display:flex;
         flex-direction:row;
@@ -89,7 +89,7 @@
           flex-direction:row;
           gap:1rem;
           .lang{
-            font-size:1.7rem;
+            font-size:1.5rem;
             font-weight:bold;
             font-stretch: normal;
             font-style: normal;

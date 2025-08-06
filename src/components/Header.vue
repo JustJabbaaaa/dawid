@@ -14,7 +14,7 @@
     <div class="text">
       <div class="name">Heiko</div>
       <div class="surname">Zillmann</div>
-      <div class="title">Ein Mann, ein Wort!</div>
+      <NuxtImg src="images/header/text.svg" class="title"/>
     </div>
   </Section>
 </template>
