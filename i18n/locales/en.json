@@ -1,5 +1,58 @@
 {
-  "welcome": "Welcome to my website!",
-  "description": "This is a sample website with internationalization.",
-  "switchLanguage": "Switch language"
+  "navbar":{
+    "logo":{
+      "yourCandidate": "Your Candidate for",
+      "mayor": "Mayor of"
+    },
+    "links":{
+      "about": "About",
+      "vision": "Vision",
+      "contact": "Contact"
+    }
+  },
+  "about":{
+    "header":"There are people who don't seek the spotlight - they create impact quietly, steadily, with integrity and responsibility.",
+    "para1": "Born and raised is Oranienburg, deeply rooted in his hometown, Heiko has earned the trust and respect of the community over decades – not through consistent action. Through reliability. Through closeness to the people.",
+    "para2": "For more than 25 years, Heiko Zillmann has been active as an entrepreneur – in real estate, HR services, and the service sector. He built companies, created jobs, connected people, and provided solutions where others only saw problems. His perspective has always been grounded: focused on what’s practically achievable – and morally right",
+    "paraExpanded": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto error rerum voluptatem. Autem voluptatum corrupti perferendis repellendus sed deserunt dicta ratione. Aut perferendis molestias architecto velit, atque dolore assumenda? Voluptatum soluta dignissimos numquam perferendis ea ad, beatae voluptatem adipisci molestias nesciunt illo distinctio saepe officia incidunt iure ipsa sed id asperiores vitae reiciendis ratione deserunt aspernatur amet ducimus. Perspiciatis?",
+    "btn":{
+      "readMore": "read more",
+      "readLess": "read less"
+    }
+  },
+  "description":{
+    "left":{
+      "title":{
+        "first": "This is not a political strategy.",
+        "second": "It’s a reflection of who he is."
+      },
+      "para1": "Heiko Zillmann believes in the power of community – in a city where ideas are judged not by the color of a party flag, but by how they serve its people. He stands for a new style of leadership: transparent, approachable, unifying. A leadership that listens, understands, moderates – and then takes decisive action.",
+      "para2": "His commitment doesn’t stop at city hall. He has made a lasting impact on civic life – especially through his long-standing work with children and youth in martial arts. As a coach, mentor, and role model, he taught not just techniques, but values: discipline, mutual respect, and responsibility – values he lives by himself."
+    },
+    "right":{
+      "para1":"People who know him will tell you: When Heiko commits, he commits fully. That’s also true in Oranienburg’s historic shooting club, where he quickly became an active member – and shortly after, won the title of Schützenkönig. Not because he aimed for it, but because wherever he goes, he steps up.",
+      "para2":"Privately, Heiko is a man with strong family values. He lives in close, harmonious connection with his wife, his son, and his brothers. He maintains friendships with the same reliability he brings to his professional and political life."
+    }
+  },
+  "footer":{
+    "top":{
+      "support":{
+        "supportus": "support us",
+        "secondText": "lorem ipsum"
+      },
+      "ibanText": "lorem ipsum dolor sit amet"
+    },
+    "bottom":{
+      "left":{
+        "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam",
+        "text2": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione non nostrum."
+      },
+      "right":{
+        "links":{
+          "about":"About"
+        },
+        "text": "Lorem, ipsum dolor."
+      }
+    }
+  }
 }

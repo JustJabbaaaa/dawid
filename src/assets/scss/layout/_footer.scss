@@ -72,6 +72,9 @@
         gap:1rem;
         img{
           width:50px;
+          &:nth-child(1){
+            width:75px;
+          }
         }
       }
     }

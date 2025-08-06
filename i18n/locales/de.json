@@ -1,5 +1,58 @@
 {
-  "welcome": "Willkommen auf meiner Website!",
-  "description": "Dies ist eine Beispiel-Website mit Internationalisierung.",
-  "switchLanguage": "Sprache wechseln"
+  "navbar": {
+    "logo": {
+      "yourCandidate": "Ihr Kandidat für",
+      "mayor": "Bürgermeister von"
+    },
+    "links": {
+      "about": "Über",
+      "vision": "Vision",
+      "contact": "Kontakt"
+    }
+  },
+  "about": {
+    "header": "Es gibt Menschen, die nicht im Rampenlicht stehen – sie schaffen Wirkung leise, beständig, mit Integrität und Verantwortung.",
+    "para1": "In Oranienburg geboren und aufgewachsen, tief in seiner Heimatstadt verwurzelt, hat Heiko das Vertrauen und den Respekt der Gemeinschaft über Jahrzehnte gewonnen – nicht durch ständiges Handeln. Durch Zuverlässigkeit. Durch Nähe zu den Menschen.",
+    "para2": "Seit mehr als 25 Jahren ist Heiko Zillmann als Unternehmer tätig – in den Bereichen Immobilien, Personaldienstleistungen und Dienstleistungssektor. Er hat Unternehmen gegründet, Arbeitsplätze geschaffen, Menschen verbunden und Lösungen gefunden, wo andere nur Probleme sahen. Seine Perspektive war stets bodenständig: fokussiert auf das, was praktisch umsetzbar – und moralisch richtig ist.",
+    "paraExpanded": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto error rerum voluptatem. Autem voluptatum corrupti perferendis repellendus sed deserunt dicta ratione. Aut perferendis molestias architecto velit, atque dolore assumenda? Voluptatum soluta dignissimos numquam perferendis ea ad, beatae voluptatem adipisci molestias nesciunt illo distinctio saepe officia incidunt iure ipsa sed id asperiores vitae reiciendis ratione deserunt aspernatur amet ducimus. Perspiciatis?",
+    "btn": {
+      "readMore": "mehr lesen",
+      "readLess": "weniger lesen"
+    }
+  },
+  "description": {
+    "left": {
+      "title": {
+        "first": "Dies ist keine politische Strategie.",
+        "second": "Es ist ein Spiegelbild dessen, wer er ist."
+      },
+      "para1": "Heiko Zillmann glaubt an die Kraft der Gemeinschaft – in einer Stadt, in der Ideen nicht nach der Farbe einer Parteiflagge beurteilt werden, sondern danach, wie sie den Menschen dienen. Er steht für einen neuen Führungsstil: transparent, zugänglich, verbindend. Eine Führung, die zuhört, versteht, moderiert – und dann entschlossen handelt.",
+      "para2": "Sein Engagement endet nicht im Rathaus. Er hat einen bleibenden Einfluss auf das bürgerliche Leben – insbesondere durch seine langjährige Arbeit mit Kindern und Jugendlichen im Kampfsport. Als Trainer, Mentor und Vorbild lehrte er nicht nur Techniken, sondern Werte: Disziplin, gegenseitigen Respekt und Verantwortung – Werte, nach denen er selbst lebt."
+    },
+    "right": {
+      "para1": "Menschen, die ihn kennen, werden Ihnen sagen: Wenn Heiko sich engagiert, dann ganz. Das gilt auch für Oranienburgs historische Schützengesellschaft, wo er schnell ein aktives Mitglied wurde – und kurz darauf den Titel des Schützenkönigs gewann. Nicht, weil er darauf abzielte, sondern weil er überall, wo er ist, Verantwortung übernimmt.",
+      "para2": "Privat ist Heiko ein Mann mit starken Familienwerten. Er lebt in enger, harmonischer Verbindung mit seiner Frau, seinem Sohn und seinen Brüdern. Er pflegt Freundschaften mit derselben Zuverlässigkeit, die er in sein berufliches und politisches Leben einbringt."
+    }
+  },
+  "footer": {
+    "top": {
+      "support": {
+        "supportus": "unterstützen Sie uns",
+        "secondText": "lorem ipsum"
+      },
+      "ibanText": "lorem ipsum dolor sit amet"
+    },
+    "bottom": {
+      "left": {
+        "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam",
+        "text2": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione non nostrum."
+      },
+      "right": {
+        "links": {
+          "about": "Über"
+        },
+        "text": "Lorem, ipsum dolor."
+      }
+    }
+  }
 }
