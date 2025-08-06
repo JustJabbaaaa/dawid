@@ -1,8 +1,8 @@
 <template>
     <Section anchor="Description" class="description" grid="2">
         <div class="column">
-            <NuxtImg src="/images/description/text.svg"/>
-            <h2>{{ $t('description.left.title.first') }}<br/>{{ $t('description.left.title.second') }}</h2>
+            <h1>"{{ $t('description.quote.first') }} {{ $t('description.quote.second') }} {{ $t('description.quote.third') }} {{ $t('description.quote.fourth') }}"</h1>
+            <h2>{{ $t('description.left.title.first') }} {{ $t('description.left.title.second') }}</h2>
             <p>{{ $t('description.left.para1') }}</p>
             <p>{{ $t('description.left.para2') }}</p>
         </div>

@@ -6,7 +6,7 @@
   letter-spacing: 1px;
   font-family: 'Mona Sans';
   padding: 2rem 8rem 6rem 5rem;
-  background:linear-gradient(90deg, #2f1b70, $primary-color, $primary-dark);
+   background:radial-gradient(circle at bottom, #3a1ba0 0%, #220f5a 75%);
   .nav{
     display:flex;
     flex-direction: row;

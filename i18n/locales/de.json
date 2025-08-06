@@ -21,6 +21,12 @@
     }
   },
   "description": {
+    "quote":{
+      "first": "I don't want to polarize -",
+      "second": "I want to unite.",
+      "third": "I want to be the common",
+      "fourth": "ground we all share."
+    },
     "left": {
       "title": {
         "first": "Dies ist keine politische Strategie.",

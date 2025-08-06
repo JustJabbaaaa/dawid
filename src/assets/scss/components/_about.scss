@@ -97,6 +97,7 @@
         align-items: center;
         z-index:2;
         margin-top:63.5px;
+        margin-bottom:5rem;
         color:white;
         border:2px solid $secondary-color;
         border-radius: 17px;
@@ -166,9 +167,6 @@
           align-items: center;
         }
       }
-      &--readMore{
-        margin-bottom:1rem;
-      }
     }
   }
   @media screen and (min-width:1921px){
@@ -177,8 +175,9 @@
       margin:auto;
     }
   }
-  @media screen and (max-width:1376px){
+  @media screen and (max-width:1800px){
     padding:0 1.5rem;
+    padding-top:5rem;
     &__content{
       margin:auto;
       max-width:1300px;
