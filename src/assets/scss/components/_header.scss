@@ -114,7 +114,8 @@
     left:5rem;
   }
 }
-@media screen and (max-width:771px){
+@media screen and (max-width:1074px){
+  overflow:hidden;
   height:500px;
   .text{
     left:auto;
