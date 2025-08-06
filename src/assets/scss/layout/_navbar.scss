@@ -137,6 +137,12 @@
       &__brand{
         margin:0;
         text-align:center;
+        .linebreak{
+          display:none;
+        }
+        img{
+          margin:0 8px;
+        }
       }
       &__buttons{
         align-items:center;
