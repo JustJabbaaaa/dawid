@@ -12,7 +12,7 @@
           </span>
         </div>
         <div class="about__content--imgText">
-          <NuxtImg src="/images/about/about_photo.webp"/>
+          <NuxtImg class="photo" src="/images/about/about_photo.webp"/>
           <div class="about__content--description">
             <p class="about__content--para">
               {{ $t('about.para1') }}

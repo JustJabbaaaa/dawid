@@ -18,7 +18,9 @@
   &.section {
     padding: 0;
   }
-
+  .container{
+    max-width:3000px;
+  }
   .background{
     position: absolute;
     top: 0;
@@ -28,11 +30,17 @@
     justify-content: flex-end;
     img{
       height:660px;
-      width:50vw;
       object-fit:cover;
     }
+    .building{
+      img{
+        width:50vw;
+      }
+    }
     .herb{
-
+      img{
+        object-position: 75% 0;
+      }
     }
   }
   .main-image {
@@ -40,7 +48,7 @@
   z-index: 2;
   top:-150px;
   left: 60%;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
   width: 700px; 
   height: auto;
   overflow: hidden;
@@ -50,6 +58,17 @@
     object-fit: cover;
   }
 }
+@media screen and (min-width:1920px){
+      .building, .herb{
+        img{
+          width:50vw;
+        }
+      }
+      .main-image{
+        left:50%;
+        transform: translateX(-50%);
+      }
+    }
 .text{
   position: absolute;
   left: 15%;
@@ -60,7 +79,7 @@
   align-items: flex-start;
   .name, .surname{
     font-family: 'Mona Sans';
-    font-size:12.5rem;
+    font-size: clamp(3rem, -3.7857rem + 21.7143vw, 12.5rem);
     line-height:0.85;
   }
   .name{
@@ -68,13 +87,13 @@
     color:white;
     transform-origin: left;
     font-weight: 300;
-    letter-spacing: -15px;
+    letter-spacing: clamp(1px, -0.6429rem + 1.1429vw, -15px);
   }
   .surname{
     color: $secondary-color;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: -12px;
+    letter-spacing: clamp(1px, -0.6429rem + 1.1429vw, -12px);
     transform-origin: left;
     -webkit-transform:scale(0.9,1);
     -moz-transform:scale(0.9,1);

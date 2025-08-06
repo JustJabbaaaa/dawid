@@ -34,10 +34,9 @@
         background:$secondary-color;
         border-radius:50%;
         padding:1rem;
-        width:100px;
-        height:100px;
         img{
           transform: rotate(-15deg);
+          width:100px;
         }
       }
       .text{
@@ -46,7 +45,7 @@
         display:flex;
         flex-direction: column;
         color: $secondary-color;
-        font-size:4.2rem;
+        font-size: clamp(1.5rem, 0.15rem + 5.4vw, 4rem);
         line-height: 0.99;
         span{
           color:#dbc09d;
@@ -58,7 +57,7 @@
       border-left: 3px solid #351e7f;
     }
     &--iban{
-      font-size:1.75rem;
+      font-size: clamp(1.125rem, 0.8125rem + 1.25vw, 1.75rem);
       display:flex;
       flex-direction: column;
       .number{
@@ -95,7 +94,7 @@
         gap:1rem;
         justify-content: flex-start;
         h1{
-          font-size:1rem;
+          font-size: clamp(0.85rem, 0.775rem + 0.3vw, 1rem);
           color:rgba(#ffffff, .6);
           font-weight:700;
         }
@@ -125,6 +124,56 @@
       width:100%;
       p{
         float:right;
+      }
+    }
+  }
+  @media screen and (max-width:1250px){
+    &__top{
+      flex-direction: column;
+      gap:5rem;
+      margin:auto;
+      width:100%;
+      &--support{
+        width:100%;
+        .icon{
+          img{
+            width:50px;
+            height:50px;
+          }
+        }
+      }
+      &--iban{
+        text-align:center;
+        width:100%;
+        .paymentIcons{
+          justify-content: center;
+        }
+      }
+      &--vl{
+        display:none;
+      }
+    }
+    &__bottom{
+      gap:2rem;
+      &--top{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+        .left{
+          text-align:center;
+        }
+        .right{
+          gap:2rem;
+        }
+      }
+      hr{
+        display:none;
+      }
+      &--bot{
+        p{
+          width:100%;
+          text-align:center;
+        }
       }
     }
   }
