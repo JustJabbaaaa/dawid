@@ -68,7 +68,7 @@
   align-items: flex-start;
   .name, .surname{
     font-family: 'Mona Sans';
-    font-size: clamp(3rem, -3.7857rem + 21.7143vw, 12.5rem);
+    font-size: clamp(5rem, -3.7857rem + 21.7143vw, 12.5rem);
     line-height:0.85;
   }
   .name{
@@ -107,9 +107,7 @@
       }
     }
 @media screen and (max-width:771px){
-  .main-image{
-    top:0;
-  }
+  height:500px;
   .text{
     left:auto;
     top:auto;
@@ -119,12 +117,24 @@
     }
   }
   .main-image{
+    top:0;
     left:55%;
     transform: translateX(-50%);
   }
   .building, .herb{
+    width:50%;
     img{
-      width:50vw;
+      width:100%;
+    }
+  }
+  .text{
+    top:auto;
+    bottom:1rem;
+    left:50%;
+    transform:translateX(-50%);
+    .name, .surname{
+      width:100%;
+      transform-origin:center;
     }
   }
 }
