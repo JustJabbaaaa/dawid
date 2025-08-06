@@ -6,5 +6,8 @@
         margin:auto;
         padding:5rem 0;
         width:850px;
+        @media screen and (max-width:500px){
+            padding:2rem 0;
+        }
     }
 }
