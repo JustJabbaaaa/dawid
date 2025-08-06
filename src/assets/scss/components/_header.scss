@@ -20,6 +20,7 @@
   }
   .container{
     max-width:3000px;
+    padding:0;
   }
   .background{
     position: absolute;
@@ -76,13 +77,11 @@
     color:white;
     transform-origin: left;
     font-weight: 300;
-    letter-spacing: clamp(1px, -0.6429rem + 1.1429vw, -15px);
   }
   .surname{
     color: $secondary-color;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: clamp(1px, -0.6429rem + 1.1429vw, -12px);
     transform-origin: left;
     -webkit-transform:scale(0.9,1);
     -moz-transform:scale(0.9,1);
