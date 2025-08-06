@@ -10,7 +10,7 @@
   z-index: 3;
 }
 #Header {
- position: relative;
+  position: relative;
   height: 660px;
   overflow: visible;
   color: white;
@@ -34,9 +34,7 @@
       object-fit:cover;
     }
     .building{
-      img{
-        width:50vw;
-      }
+      width:50%;
     }
     .herb{
       img{
@@ -50,7 +48,7 @@
   top:-150px;
   left: 60%;
   transform: translateX(-40%);
-  width: 700px; 
+   width: min(700px, 100vw);
   height: auto;
   img{
     width: 100%;
@@ -92,7 +90,7 @@
     -ms-transform:scale(0.9,1);
     -o-transform:scale(0.9,1);
     transform:scale(0.8,1);
-    font-size: clamp(7rem, -5.9444rem + 22.2222vw, 13.5rem);
+    font-size: clamp(6rem, -5.9444rem + 22.2222vw, 13.5rem);
     letter-spacing:-10px;
   }
   .title{
@@ -146,6 +144,9 @@
     .name, .surname{
       margin:auto;
       transform-origin:center;
+    }
+    .title{
+      width:100%;
     }
   }
 }
