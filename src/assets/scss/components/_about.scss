@@ -85,6 +85,7 @@
       object-fit: cover;
       z-index:1;
       border-radius: 1.5rem;
+      max-width:unset;
     } 
     &--readMore{
         cursor:pointer;
@@ -137,12 +138,27 @@
     }
   }
   @media screen and (max-width:723px){
+    padding-top:0;
     &__content{
       &--imgText{
         flex-direction: column;
         gap:1rem;
+        .about__content--top{
+          display:flex;
+          flex-direction: row-reverse;
+          gap:1rem;
+          align-items: center;
+          .about__content--header{
+            position:relative;
+            top:0;
+            left:0;
+          }
+        }
         .about__content--description{
           margin-top:1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
       }
     }

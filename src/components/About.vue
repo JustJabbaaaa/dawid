@@ -6,13 +6,15 @@
       ref="aboutSection"
     >
       <div class="about__content">
-        <div class="about__content--header">
-          <span>
-            {{ $t('about.header') }}
-          </span>
-        </div>
         <div class="about__content--imgText">
-          <NuxtImg class="photo" src="/images/about/about_photo.webp"/>
+          <div class="about__content--top">
+            <div class="about__content--header">
+              <span>
+                {{ $t('about.header') }}
+              </span>
+            </div>
+            <NuxtImg class="photo" src="/images/about/about_photo.webp"/>
+          </div>
           <div class="about__content--description">
             <p class="about__content--para">
               {{ $t('about.para1') }}
