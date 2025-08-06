@@ -12,12 +12,13 @@
 }
 .about{
   overflow:hidden;
-  max-height:1100px;
+  max-height:1150px;
   position:relative;
   z-index: 3;
   background: $primary-dark;
   padding-left:15vw;
   padding-bottom:2rem;
+  padding-top:3rem;
   font-family: 'Mona Sans';
   &.expanded{
     max-height:1600px;
