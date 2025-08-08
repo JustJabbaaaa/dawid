@@ -5,9 +5,9 @@
         {{ $t('navbar.logo.yourCandidate') }}<br/>{{ $t('navbar.logo.mayor') }}<br class="linebreak" v-if="$i18n.locale === 'de'" /><NuxtImg src="/images/description/herb.webp"/><span>Oranienburg</span></NuxtLink>
       <div class="nav__buttons">
         <div class="nav__buttons--navMenu">
-          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">{{ $t('navbar.links.about') }}</NuxtLink></li>
-          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">{{ $t('navbar.links.vision') }}</NuxtLink></li>
-          <li class="nav__buttons--item"><NuxtLink to="#" class="nav__buttons--btn">{{ $t('navbar.links.contact') }}</NuxtLink></li>
+          <li class="nav__buttons--item"><NuxtLink to="#About" class="nav__buttons--btn">{{ $t('navbar.links.about') }}</NuxtLink></li>
+          <li class="nav__buttons--item"><NuxtLink to="#Vision" class="nav__buttons--btn">{{ $t('navbar.links.vision') }}</NuxtLink></li>
+          <li class="nav__buttons--item"><NuxtLink to="#Contact" class="nav__buttons--btn">{{ $t('navbar.links.contact') }}</NuxtLink></li>
         </div>
         <div class="nav__buttons--navSocials">
           <div class="socials">

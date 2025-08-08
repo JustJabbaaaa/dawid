@@ -10,7 +10,7 @@
     <Navbar />
     <Header />
     <About />
-    <Description/>
+    <Vision/>
     <Banner/>
     <Contact/>
     <Footer/>
