@@ -12,6 +12,7 @@
     <About />
     <Description/>
     <Banner/>
+    <Contact/>
     <Footer/>
   </div>
 </template>

@@ -60,5 +60,24 @@
         "text": "Lorem, ipsum dolor."
       }
     }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zu, um Kontakt mit mir aufzunehmen.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "submit": "Absenden",
+    "sending": "Senden...",
+    "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
+    "error": "Es gab ein Problem beim Senden Ihrer Nachricht."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst...",
+    "dataCollection": "Wir erheben und verarbeiten personenbezogene Daten nur im Rahmen dieser Website...",
+    "rights": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung...",
+    "close": "Schließen"
   }
 }

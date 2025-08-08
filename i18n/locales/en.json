@@ -60,5 +60,24 @@
         "text": "Lorem, ipsum dolor."
       }
     }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "consent": "I agree to the processing of my personal data in order to be contacted.",
+    "privacyPolicy": "Privacy Policy",
+    "submit": "Send",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "There was a problem sending your message."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "We take the protection of your personal data very seriously...",
+    "dataCollection": "We collect and process personal data only within the scope of this website...",
+    "rights": "You have the right at any time to information, correction, deletion and restriction...",
+    "close": "Close"
   }
 }
