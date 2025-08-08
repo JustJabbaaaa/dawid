@@ -68,8 +68,8 @@
     "message": "Nachricht",
     "consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zu, um Kontakt mit mir aufzunehmen.",
     "privacyPolicy": "Datenschutzerklärung",
-    "submit": "Absenden",
-    "sending": "Senden...",
+    "submit": "absenden",
+    "sending": "senden...",
     "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
     "error": "Es gab ein Problem beim Senden Ihrer Nachricht."
   },

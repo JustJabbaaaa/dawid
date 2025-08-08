@@ -22,9 +22,14 @@
             <p class="about__content--text">
               {{ $t('about.para2') }}
             </p>
-            <p v-if="showMore" class="about__content--text">
-              {{ $t('about.paraExpanded') }}
-            </p>
+            <div
+              class="about__content--expandable"
+              :class="{ expanded: showMore }"
+            >
+              <p class="about__content--text">
+                {{ $t('about.paraExpanded') }}
+              </p>
+            </div>
             <NuxtLink
               class="about__content--readMore"
               @click.prevent="toggleReadMore"

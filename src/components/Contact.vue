@@ -35,7 +35,8 @@
 
         <!-- Submit Button -->
         <button type="submit" :disabled="loading">
-          {{ loading ? $t('contact.sending') : $t('contact.submit') }}
+          <div>{{ loading ? $t('contact.sending') : $t('contact.submit') }}</div>
+          <NuxtImg src="/images/contact/arrow.svg"/>
         </button>
 
         <!-- Success / Error Messages -->

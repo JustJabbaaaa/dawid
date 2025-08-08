@@ -68,8 +68,8 @@
     "message": "Message",
     "consent": "I agree to the processing of my personal data in order to be contacted.",
     "privacyPolicy": "Privacy Policy",
-    "submit": "Send",
-    "sending": "Sending...",
+    "submit": "send",
+    "sending": "sending...",
     "success": "Thank you! Your message has been sent successfully.",
     "error": "There was a problem sending your message."
   },

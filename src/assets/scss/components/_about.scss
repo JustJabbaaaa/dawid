@@ -51,34 +51,34 @@
       gap:100px;
       margin-top:97px;
       z-index:1;
-      .about__content--description{
-        margin-top:15rem;
-        max-width:800px;
-      p{
-        font-size: clamp(1.125rem, 0.5rem + 2vw, 2rem);
-        color:#b6976d;
-        &.about__content--para{
-          font-weight:600;
+      .about__content{
+        &--description{
+          margin-top:15rem;
+          max-width:800px;
+          p{
+            font-size: clamp(1.125rem, 0.5rem + 2vw, 2rem);
+            color:#b6976d;
+            &.about__content--para{
+              font-weight:600;
+            }
+            &.about__content--text{
+              margin-top:1rem;
+              color:white;
+            }
+          }
         }
-        &.about__content--text{
-          margin-top:1rem;
-          color:white;
+        &--expandable {
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+          transition: max-height 0.4s ease, opacity 0.3s ease;
+          
+          &.expanded {
+            max-height: 450px; 
+            opacity: 1;
+          }
         }
       }
-      .expand-enter-active, .expand-leave-active {
-        transition: all 0.4s ease-in-out;
-        overflow: hidden;
-      }
-      .expand-enter-from, .expand-leave-to {
-        max-height: 0;
-        opacity: 0;
-        margin-top: 0;
-      }
-      .expand-enter-to, .expand-leave-from {
-        max-height: 500px;
-        opacity: 1;
-      }
-    }
     }
     img{
       width:400px;
@@ -110,7 +110,10 @@
         }
         &:hover{
           background: $secondary-color;
-          color:$primary-dark;
+          color:#2a136d;
+          img{
+            filter: brightness(0) saturate(100%) invert(15%) sepia(63%) saturate(3201%) hue-rotate(247deg) brightness(69%) contrast(108%);
+          }
         }
         &.active{
           img{
