@@ -75,9 +75,17 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "We take the protection of your personal data very seriously...",
-    "dataCollection": "We collect and process personal data only within the scope of this website...",
-    "rights": "You have the right at any time to information, correction, deletion and restriction...",
-    "close": "Close"
+    "intro": "Protecting your personal data is very important to us. This website explains what data we collect and how we use it.",
+    "dataCollection": "We only collect personal data that you voluntarily provide to us, for example via the contact form (name, email address). This data is used solely to handle your inquiries.",
+    "cookies": "Our website uses cookies to analyze site usage, save your language preferences, and ensure secure operation. You can disable cookies in your browser settings, but this may limit website functionality.",
+    "dataProtectionRights": "You have the right to access, correct, delete, or restrict processing of your personal data at any time. To exercise these rights, please contact us via the contact details in the imprint.",
+    "legalBasis": "Data processing is based on your consent (Art. 6 Para. 1 lit. a GDPR) and to comply with legal obligations.",
+    "contact": "If you have any questions regarding data protection, please contact us at the address given in the imprint.",
+    "close": "Close",
+     "dataCollectionTitle": "Data Collection",
+    "cookiesTitle": "Cookies",
+    "dataProtectionRightsTitle": "Your Rights",
+    "legalBasisTitle": "Legal Basis",
+    "contactTitle": "Contact"
   }
 }

@@ -75,9 +75,17 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst...",
-    "dataCollection": "Wir erheben und verarbeiten personenbezogene Daten nur im Rahmen dieser Website...",
-    "rights": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung...",
-    "close": "Schließen"
+    "intro": "Der Schutz Ihrer persönlichen Daten ist uns sehr wichtig. Auf dieser Webseite erfahren Sie, welche Daten wir erheben und wie wir sie verwenden.",
+    "dataCollection": "Wir erheben Ihre personenbezogenen Daten nur, wenn Sie uns diese freiwillig, z.B. über das Kontaktformular (Name, E-Mail-Adresse), mitteilen. Diese Daten verwenden wir ausschließlich zur Bearbeitung Ihrer Anfrage.",
+    "cookies": "Unsere Website verwendet Cookies, um die Nutzung der Seite zu analysieren, Ihre Spracheinstellungen zu speichern und den sicheren Betrieb zu gewährleisten. Sie können die Verwendung von Cookies in Ihrem Browser deaktivieren, jedoch kann dies die Funktionalität der Website einschränken.",
+    "dataProtectionRights": "Sie haben das Recht, jederzeit Auskunft über Ihre gespeicherten personenbezogenen Daten zu erhalten sowie deren Berichtigung, Löschung oder Einschränkung der Verarbeitung zu verlangen. Zur Ausübung dieser Rechte wenden Sie sich bitte an die im Impressum genannten Kontaktdaten.",
+    "legalBasis": "Die Verarbeitung Ihrer Daten erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und zur Erfüllung rechtlicher Verpflichtungen.",
+    "contact": "Für Fragen zum Datenschutz können Sie uns unter der im Impressum angegebenen Adresse kontaktieren.",
+    "close": "Schließen",
+    "dataCollectionTitle": "Datenerhebung",
+    "cookiesTitle": "Cookies",
+    "dataProtectionRightsTitle": "Ihre Rechte",
+    "legalBasisTitle": "Rechtsgrundlage",
+    "contactTitle": "Kontakt"
   }
 }

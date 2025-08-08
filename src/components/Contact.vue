@@ -46,21 +46,33 @@
 
     <!-- Privacy Policy Modal -->
     <div v-if="showPrivacy" class="modal-overlay" @click.self="showPrivacy = false">
-      <div class="modal">
-        <header>
-          <h3>{{ $t('privacy.title') }}</h3>
-          <button class="close-btn" @click="showPrivacy = false">&times;</button>
-        </header>
-        <div class="modal-content">
-          <p>{{ $t('privacy.intro') }}</p>
-          <p>{{ $t('privacy.dataCollection') }}</p>
-          <p>{{ $t('privacy.rights') }}</p>
-        </div>
-        <footer>
-          <button @click="showPrivacy = false">{{ $t('privacy.close') }}</button>
-        </footer>
-      </div>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <header>
+      <h3 id="privacy-title">{{ $t('privacy.title') }}</h3>
+      <button class="close-btn" @click="showPrivacy = false" aria-label="Close modal">&times;</button>
+    </header>
+    <div class="modal-content">
+      <p>{{ $t('privacy.intro') }}</p>
+      <h4>{{ $t('privacy.dataCollectionTitle') || 'Datenerhebung' }}</h4>
+      <p>{{ $t('privacy.dataCollection') }}</p>
+
+      <h4>{{ $t('privacy.cookiesTitle') || 'Cookies' }}</h4>
+      <p>{{ $t('privacy.cookies') }}</p>
+
+      <h4>{{ $t('privacy.dataProtectionRightsTitle') || 'Ihre Rechte' }}</h4>
+      <p>{{ $t('privacy.dataProtectionRights') }}</p>
+
+      <h4>{{ $t('privacy.legalBasisTitle') || 'Rechtsgrundlage' }}</h4>
+      <p>{{ $t('privacy.legalBasis') }}</p>
+
+      <h4>{{ $t('privacy.contactTitle') || 'Kontakt' }}</h4>
+      <p>{{ $t('privacy.contact') }}</p>
     </div>
+    <footer>
+      <button @click="showPrivacy = false">{{ $t('privacy.close') }}</button>
+    </footer>
+  </div>
+</div>
   </Section>
 </template>
 
