@@ -56,8 +56,8 @@
       "right":{
         "links":{
           "about": "About",
-          "support": "Support",
-          "contact": "Contact"
+          "contact": "Contact",
+          "toTop": "Back to top"
         },
         "text": "Lorem, ipsum dolor."
       }

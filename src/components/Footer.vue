@@ -33,9 +33,9 @@
               <p>{{ $t('footer.bottom.left.text2') }}</p>
             </div>
             <div class="right">
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.support') }}</NuxtLink></li>
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.contact') }}</NuxtLink></li>
+              <li><NuxtLink to="#About">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
+              <li><NuxtLink to="#Contact">{{ $t('footer.bottom.right.links.contact') }}</NuxtLink></li>
+              <li><NuxtLink to="#Navbar">{{ $t('footer.bottom.right.links.toTop') }}</NuxtLink></li>
             </div>
           </div>
           <hr>
