@@ -1,4 +1,7 @@
 @use '../abstracts/variables' as *;
+#Contact{
+    padding:75px 2rem;
+}
 .contact {
     background-color: #2a136d;
     padding: 3rem 1rem;
@@ -16,11 +19,11 @@
     &__text{
         display:flex;
         flex-direction: column;
+        text-align:left;
         gap:1px;
         .name,.number,.email{
-            font-size:2rem;
+            font-size: clamp(1rem, -0.25rem + 4vw, 2rem);
             font-weight:600;
-            text-align:left;
         }
         .email{
             color:#ff7418;
@@ -28,9 +31,9 @@
         p{
             margin-top:2rem;
             max-width:500px;
-            font-size:1.5rem;
-            text-align:left;
+            font-size: clamp(0.9rem, 0.15rem + 2.4vw, 1.5rem);
             text-wrap: pretty;
+            text-align:left;
         }
     }
     &__wrapper {
@@ -41,7 +44,7 @@
         h2 {
             margin-left:2rem;
             text-align:left;
-            font-size: 2.8rem;
+            font-size: clamp(1.8rem, -0.8rem + 6.4vw, 2.8rem);
             margin-bottom: 1.5rem;
             font-weight: 800;
             color: white;
@@ -191,6 +194,43 @@
         .email-field {
             flex: 1; // zajmuje resztę miejsca
             margin-bottom:0;
+        }
+    }
+    @media screen and (max-width:1450px){
+        .section__body.g-2{
+            grid-template-columns: 50% 50%;;
+        }        
+    }
+    @media screen and (max-width:1220px){
+        .section__body.g-2{
+            grid-template-columns: 1fr;
+        }
+        .contact{
+            &__text{
+                text-align:center;
+                p{
+                    margin:auto;
+                    margin-top:1rem;
+                    text-align:center;
+                }
+            }
+            &__wrapper{
+                .title{
+                    margin:auto;
+                    h2{
+                        text-align:center;
+                        margin-left:0;
+                        margin-top:1.5rem;
+                    }
+                }
+                .form-row{
+                    flex-direction: column;
+                    align-items:normal;
+                    button[type="submit"]{
+                        margin:auto;
+                    }
+                }
+            }
         }
     }
     }
