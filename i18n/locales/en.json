@@ -55,7 +55,9 @@
       },
       "right":{
         "links":{
-          "about":"About"
+          "about": "About",
+          "support": "Support",
+          "contact": "Contact"
         },
         "text": "Lorem, ipsum dolor."
       }

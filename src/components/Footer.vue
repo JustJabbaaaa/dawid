@@ -34,9 +34,8 @@
             </div>
             <div class="right">
               <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
-              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
+              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.support') }}</NuxtLink></li>
+              <li><NuxtLink to="#">{{ $t('footer.bottom.right.links.contact') }}</NuxtLink></li>
             </div>
           </div>
           <hr>

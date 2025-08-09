@@ -203,13 +203,10 @@
             margin-bottom:0;
         }
     }
-    @media screen and (max-width:1450px){
-        .section__body.g-2{
-            grid-template-columns: 50% 50%;;
+    @media screen and (max-width:1550px){
+        &__wrapper{
+            max-width:600px;
         }
-        .section__body{
-            gap:1rem;
-        }        
     }
     @media screen and (max-width:1220px){
         .section__body.g-2{
@@ -238,6 +235,10 @@
                     align-items:normal;
                     button[type="submit"]{
                         margin:auto;
+                    }
+                    label{
+                        margin-left:0;
+                        text-align: center;
                     }
                 }
             }
