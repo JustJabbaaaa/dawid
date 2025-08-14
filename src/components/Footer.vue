@@ -8,11 +8,13 @@
           </div>
           <div class="text">
             {{ $t('footer.top.support.supportus') }}
-            <span>{{ $t('footer.top.support.secondText') }}</span>
           </div>
         </div>
         <div class="footer__top--vl"></div>
         <div class="footer__top--iban">
+          <div class="thanksForSupport">
+            {{ $t('footer.top.thanksForSupport') }}
+          </div>
           <div class="number">
             IBAN 00 0100 0000 1234 5678 9100
           </div>

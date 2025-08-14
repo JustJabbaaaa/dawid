@@ -10,6 +10,7 @@
     <Navbar />
     <Header />
     <About />
+    <Whyme />
     <Vision/>
     <Banner/>
     <Contact/>

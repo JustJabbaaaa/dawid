@@ -53,13 +53,16 @@
       }
     }
     &--vl{
-      height:200px;
+      height:150px;
       border-left: 3px solid #351e7f;
     }
     &--iban{
       font-size: clamp(1.125rem, 0.8125rem + 1.25vw, 1.75rem);
       display:flex;
       flex-direction: column;
+      .thanksForSupport{
+        margin-bottom:2rem;
+      }
       .number{
         font-weight:600;
       }

@@ -1,6 +1,7 @@
 @use "sass:color";
 
 $font: 'Athiti', sans-serif;
+$quote: 'Kalam';
 
 $white-color: #fff;
 $black-color: #000;
@@ -16,6 +17,8 @@ $primary-lighter: color.adjust($primary-color, $lightness: 20%);
 $secondary-color: #ff7418;
 $secondary-dark: color.adjust($secondary-color, $lightness: -10%);
 $secondary-light: color.adjust($secondary-color, $lightness: 10%);
+
+$quote-color: #c7a77b;
 
 $gray-color: #e8e9e7;
 $gray-dark: color.adjust($gray-color, $lightness: -10%);

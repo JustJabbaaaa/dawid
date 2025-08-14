@@ -11,41 +11,49 @@
     }
   },
   "about": {
-    "header": "Es gibt Menschen, die nicht im Rampenlicht stehen – sie schaffen Wirkung leise, beständig, mit Integrität und Verantwortung.",
-    "para1": "In Oranienburg geboren und aufgewachsen, tief in seiner Heimatstadt verwurzelt, hat Heiko das Vertrauen und den Respekt der Gemeinschaft über Jahrzehnte gewonnen – nicht durch ständiges Handeln. Durch Zuverlässigkeit. Durch Nähe zu den Menschen.",
-    "para2": "Seit mehr als 25 Jahren ist Heiko Zillmann als Unternehmer tätig – in den Bereichen Immobilien, Personaldienstleistungen und Dienstleistungssektor. Er hat Unternehmen gegründet, Arbeitsplätze geschaffen, Menschen verbunden und Lösungen gefunden, wo andere nur Probleme sahen. Seine Perspektive war stets bodenständig: fokussiert auf das, was praktisch umsetzbar – und moralisch richtig ist.",
-    "paraExpanded": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto error rerum voluptatem. Autem voluptatum corrupti perferendis repellendus sed deserunt dicta ratione. Aut perferendis molestias architecto velit, atque dolore assumenda? Voluptatum soluta dignissimos numquam perferendis ea ad, beatae voluptatem adipisci molestias nesciunt illo distinctio saepe officia incidunt iure ipsa sed id asperiores vitae reiciendis ratione deserunt aspernatur amet ducimus. Perspiciatis?",
+    "title": "Aus Oranienburg – für Oranienburg",
+    "header": "Ich bin 56 Jahre alt – geboren und aufgewachsen in Oranienburg und dadurch tief mit unserer Heimatstadt verwurzelt.",
+    "para1": "Geprägt hat mich vor allem der Sport. Mit 8 Jahren begann ich zu boxen, später kam das Kickboxen dazu. Der Sport gab mir Halt, Selbstvertrauen und Stärke - auch in schwierigen Zeiten.",
+    "para2": "Viele Jahre habe ich mich in der Kinder - und Jugendarbeit als Trainer eingebracht: nicht nur Techniken vermittelt, sondern Werte wie Disziplin, gegenseitigen Respekt und Verantwortung weitergegeben. Gleich nach meiner Ausbildung habe ich mich für den Weg der Selbständigkeit entschieden. Seit über 25 lahren bin ich unternehmerisch aktiv – in den Bereichen Immobilien, Personalmanagement und Dienstleistungen.",
+    "paraExpanded": "Ich habe Unternehmen aufgebaut, Arbeitsplätze geschaffen, Menschen verbunden und Lösungen entwickelt, wo andere Probleme sahen. Ich kann von mir behaupten, dass ich mich auf diesem Weg zu einem gestandenen Mann und Unternehmer entwickelt habe. Mir sind eine konsequente Haltung, Verlässlichkeit, Bodenständigkeit und Loyalität sehr wichtig. Ich weiß, was es heißt, Entscheidungen zu treffen und Risiken zu tragen. Als Stadtverordneter habe ich mich insbesondere in den Bereichen Stadtentwicklung und Bauen engagiert - immer mit dem Ziel, Oranienburg nachhaltig voranzubringen.",
     "btn": {
       "readMore": "mehr lesen",
       "readLess": "weniger lesen"
     }
   },
-  "vision": {
-    "quote":{
-      "first": "I don't want to polarize -",
-      "second": "I want to unite.",
-      "third": "I want to be the common",
-      "fourth": "ground we all share."
+  "whyme": {
+    "header":{
+      "first": "Warum ich kandidiere",
+      "second": "Haltung. Nähe. Verantwortung."
     },
+    "text":{
+      "first": "Für ein solches Amt entscheidet man sich nicht einfach so - die Idee ist über Jahre gereift. Jetzt ist die Chance da, Verantwortung zu übernehmen, und diese möchte ich ergreifen.",
+      "second": "Ich bin mir sehr bewusst, dass die Aufgabe als Bürgermeister fordernd und zeitintensiv ist. Meine Familie gibt mir den Rückhalt, und mein soziales Umfeld die Stärke, diesem Amt gewachsen zu sein.",
+      "quote": "Ich stehe für Oranienburg – nicht für eine Richtung, sondern für den gemeinsamen Weg.",
+      "third": "Ich trete parteilos an, weil ich an die Kraft des Gemeinsamen glaube – an eine Stadt, in der die besten Ideen nicht nach Parteibuch bewertet werden, sondern nach ihrem Nutzen für die Menschen. Ich stehe für Transparenz und vor allem Bürgernähe: nicht nur verwalten, sondern zuhören, verstehen und mitgestalten lassen. Ich stehe für Oranienburg – mit wirtschaftlichem Sachverstand, kommunalpolitischer Erfahrung, gelebtem Engagement und vor allem: einer klaren inneren Haltung. Mein Ziel ist eine Stadt mit Herz, Verstand und Zukunft – eine Politik der Offenheit, der Klarheit und des Miteinanders."
+    },
+    "list":{
+      "first": "Gemeinsam statt gegeneinander: Lösungen nach Wirkung, nicht nach Parteibuch.",
+      "second": "Transparenz & Bürgernähe: zuhören, verstehen, gemeinsam gestalten.",
+      "third": "Erfahrung & Sachverstand: 25+ Jahre Unternehmertum, Stadtverordneter (Stadtentwicklung & Bauen).",
+      "fourth": "Verlässlichkeit & Werte: Disziplin, Respekt, Verantwortung, Loyalität.",
+      "fifth": "Klarer Kurs: Offenheit, Klarheit und Miteinander für eine Stadt mit Zukunft."
+    }
+  },
+  "vision": {
     "left": {
       "title": {
-        "first": "Dies ist keine politische Strategie.",
-        "second": "Es ist ein Spiegelbild dessen, wer er ist."
+        "first": "Machen wir Oranienburg gemeinsam stark"
       },
-      "para1": "Heiko Zillmann glaubt an die Kraft der Gemeinschaft – in einer Stadt, in der Ideen nicht nach der Farbe einer Parteiflagge beurteilt werden, sondern danach, wie sie den Menschen dienen. Er steht für einen neuen Führungsstil: transparent, zugänglich, verbindend. Eine Führung, die zuhört, versteht, moderiert – und dann entschlossen handelt.",
-      "para2": "Sein Engagement endet nicht im Rathaus. Er hat einen bleibenden Einfluss auf das bürgerliche Leben – insbesondere durch seine langjährige Arbeit mit Kindern und Jugendlichen im Kampfsport. Als Trainer, Mentor und Vorbild lehrte er nicht nur Techniken, sondern Werte: Disziplin, gegenseitigen Respekt und Verantwortung – Werte, nach denen er selbst lebt."
-    },
-    "right": {
-      "para1": "Menschen, die ihn kennen, werden Ihnen sagen: Wenn Heiko sich engagiert, dann ganz. Das gilt auch für Oranienburgs historische Schützengesellschaft, wo er schnell ein aktives Mitglied wurde – und kurz darauf den Titel des Schützenkönigs gewann. Nicht, weil er darauf abzielte, sondern weil er überall, wo er ist, Verantwortung übernimmt.",
-      "para2": "Privat ist Heiko ein Mann mit starken Familienwerten. Er lebt in enger, harmonischer Verbindung mit seiner Frau, seinem Sohn und seinen Brüdern. Er pflegt Freundschaften mit derselben Zuverlässigkeit, die er in sein berufliches und politisches Leben einbringt."
+      "para1": "Ich möchte, dass Politik wieder näher bei den Menschen ist. Dass gute Ideen Gehör finden – unabhängig davon, von wem sie kommen. Und dass wir Entscheidungen so treffen, dass sie spürbar Gutes bewirken: für Familien, Vereine, Betriebe und die, die hier gern leben. Wenn Sie Fragen, Anregungen oder Anliegen haben: Sprechen Sie mich an. Gemeinsam gestalten wir ein Oranienburg, das mit Herz, Verstand und Mut in die Zukunft geht"
     }
   },
   "footer": {
     "top": {
       "support": {
-        "supportus": "unterstützen Sie uns",
-        "secondText": "lorem ipsum"
+        "supportus": "Ihre Unterstützung zählt"
       },
+      "thanksForSupport": "Jeder Beitrag hilft, diese Vision Wirklichkeit werden zu lassen – durch Zeit, Ideen, Weiterempfehlungen oder eine Spende. Vielen Dank für Ihre Unterstützung!",
       "ibanText": "lorem ipsum dolor sit amet"
     },
     "bottom": {

@@ -18,10 +18,23 @@
   background:#2a136d;
   padding-left:15vw;
   padding-bottom:2rem;
-  padding-top:3rem;
+  padding-top:10rem;
   font-family: 'Mona Sans';
   &.expanded{
     max-height:1800px;
+  }
+  &__title{
+    position:absolute;
+    left:0;
+    top:2rem;
+    font-size: clamp(1.2rem, 0.2714rem + 2.9714vw, 2.5rem);
+    font-weight:600;
+    width:100%;
+    line-height: 1.75;
+    z-index:2;
+    h2{
+      text-align:center;
+    }
   }
   &__content{
     position:relative;
@@ -74,8 +87,11 @@
           transition: max-height 0.4s ease, opacity 0.3s ease;
           
           &.expanded {
-            max-height: 450px; 
+            max-height: 600px; 
             opacity: 1;
+            .about__content--text{
+              margin-top:0;
+            }
           }
         }
       }
@@ -181,7 +197,7 @@
   }
   @media screen and (max-width:1800px){
     padding:0 1.5rem;
-    padding-top:5rem;
+    padding-top:8rem;
     &__content{
       margin:auto;
       max-width:1300px;

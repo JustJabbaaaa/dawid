@@ -1,0 +1,67 @@
+@use '../abstracts/variables' as *;
+#Whyme{
+    padding:0;
+    padding-bottom:75px;
+}
+.whyme{
+    background: #2a136d;
+    padding-left: 15vw;
+    padding-bottom: 2rem;
+    font-family: "Mona Sans";
+    &__content{
+        max-width:1200px;
+        &--header{
+            text-align:left;
+            margin-bottom:94px;
+            h2{
+                font-size: clamp(2rem, 0.4766rem + 4.875vw, 3.21875rem);
+            }
+        }
+        &--text{
+            display:flex;
+            flex-direction: column;
+            text-align: left;
+            font-size: clamp(1rem, 0.0234rem + 3.125vw, 1.78125rem);
+            margin-bottom:6rem;
+            gap:2rem;
+            span{
+                color:$quote-color;
+                font-family: $quote;
+                font-size: clamp(1.25rem, -0.9766rem + 7.125vw, 3.03125rem);
+                font-weight: bold;
+            }
+        }
+        &--list{
+            ul{
+                list-style: none;
+                li{
+                    position: relative;
+                    padding-left: 1.5rem;
+                    font-size: clamp(1rem, 0.0234rem + 3.125vw, 1.78125rem);
+                    margin-bottom:1rem;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 10px;
+                        height: 10px;
+                        background-color: $secondary-color;
+                        border-radius: 50%;
+                        }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:923px){
+        &__content{
+            &--header{
+                margin-bottom:4rem;
+            }
+            &--text{
+                gap:1rem;
+            }
+        }
+    }
+}
