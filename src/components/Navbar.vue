@@ -2,7 +2,7 @@
   <div id="Navbar">
     <div class="nav">
       <NuxtLink to="/" class="nav__brand" aria-label="Go to homepage">
-        {{ $t('navbar.logo.yourCandidate') }}<br/>{{ $t('navbar.logo.mayor') }}<br class="linebreak" v-if="$i18n.locale === 'de'" /><NuxtImg src="/images/vision/herb.webp"/><span>Oranienburg</span></NuxtLink>
+        {{ $t('navbar.logo.yourCandidate') }}<br/>{{ $t('navbar.logo.mayor') }}<br class="linebreak" v-if="$i18n.locale === 'de'" /> <NuxtImg src="/images/vision/herb.webp"/><span>Oranienburg</span></NuxtLink>
       <div class="nav__buttons">
         <div class="nav__buttons--navMenu">
           <li class="nav__buttons--item"><NuxtLink to="#About" class="nav__buttons--btn">{{ $t('navbar.links.about') }}</NuxtLink></li>

@@ -1,60 +1,68 @@
 {
-  "navbar":{
-    "logo":{
-      "yourCandidate": "Your Candidate for",
-      "mayor": "Mayor of "
+  "navbar": {
+    "logo": {
+      "yourCandidate": "Your candidate for",
+      "mayor": "Mayor of"
     },
-    "links":{
+    "links": {
       "about": "About",
       "support": "Support",
       "contact": "Contact"
     }
   },
-  "about":{
-    "header":"There are people who don't seek the spotlight - they create impact quietly, steadily, with integrity and responsibility.",
-    "para1": "Born and raised is Oranienburg, deeply rooted in his hometown, Heiko has earned the trust and respect of the community over decades – not through consistent action. Through reliability. Through closeness to the people.",
-    "para2": "For more than 25 years, Heiko Zillmann has been active as an entrepreneur – in real estate, HR services, and the service sector. He built companies, created jobs, connected people, and provided solutions where others only saw problems. His perspective has always been grounded: focused on what’s practically achievable – and morally right",
-    "paraExpanded": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto error rerum voluptatem. Autem voluptatum corrupti perferendis repellendus sed deserunt dicta ratione. Aut perferendis molestias architecto velit, atque dolore assumenda? Voluptatum soluta dignissimos numquam perferendis ea ad, beatae voluptatem adipisci molestias nesciunt illo distinctio saepe officia incidunt iure ipsa sed id asperiores vitae reiciendis ratione deserunt aspernatur amet ducimus. Perspiciatis?",
-    "btn":{
+  "about": {
+    "title": "From Oranienburg – for Oranienburg",
+    "header": "I am 56 years old – born and raised in Oranienburg, and therefore deeply rooted in our hometown.",
+    "para1": "Sport has shaped me above all. At the age of 8, I started boxing, and later kickboxing. Sport gave me stability, self-confidence, and strength – even in difficult times.",
+    "para2": "For many years, I have been involved in children’s and youth work as a coach: not only teaching techniques but also passing on values such as discipline, mutual respect, and responsibility. Right after my training, I chose the path of self-employment. For over 25 years, I have been active as an entrepreneur – in the fields of real estate, personnel management, and services.",
+    "paraExpanded": "I have built businesses, created jobs, connected people, and developed solutions where others saw problems. I can say that along this path, I have grown into a strong man and entrepreneur. A consistent stance, reliability, down-to-earth attitude, and loyalty are very important to me. I know what it means to make decisions and bear risks. As a city councilor, I have been particularly involved in urban development and construction – always with the goal of sustainably advancing Oranienburg.",
+    "btn": {
       "readMore": "read more",
       "readLess": "read less"
     }
   },
-  "vision":{
-    "quote":{
-      "first": "I don't want to polarize -",
-      "second": "I want to unite.",
-      "third": "I want to be the common",
-      "fourth": "ground we all share."
+  "whyme": {
+    "header": {
+      "first": "Why I am running",
+      "second": "Commitment. Proximity. Responsibility."
     },
-    "left":{
-      "title":{
-        "first": "This is not a political strategy.",
-        "second": "It’s a reflection of who he is."
-      },
-      "para1": "Heiko Zillmann believes in the power of community – in a city where ideas are judged not by the color of a party flag, but by how they serve its people. He stands for a new style of leadership: transparent, approachable, unifying. A leadership that listens, understands, moderates – and then takes decisive action.",
-      "para2": "His commitment doesn’t stop at city hall. He has made a lasting impact on civic life – especially through his long-standing work with children and youth in martial arts. As a coach, mentor, and role model, he taught not just techniques, but values: discipline, mutual respect, and responsibility – values he lives by himself."
+    "text": {
+      "first": "You don’t decide to run for such an office on a whim – the idea has matured over years. Now is the opportunity to take responsibility, and I want to seize it.",
+      "second": "I am very aware that the role of mayor is demanding and time-consuming. My family gives me the support, and my social environment the strength, to live up to this office.",
+      "quote": "I stand for Oranienburg – not for one direction, but for the common path.",
+      "third": "I am running as an independent candidate because I believe in the power of working together – in a city where the best ideas are judged not by party affiliation but by their benefit to the people. I stand for transparency and, above all, closeness to citizens: not just administering, but listening, understanding, and allowing participation. I stand for Oranienburg – with economic expertise, municipal political experience, lived commitment, and above all: a clear inner stance. My goal is a city with heart, mind, and future – a policy of openness, clarity, and cooperation."
     },
-    "right":{
-      "para1":"People who know him will tell you: When Heiko commits, he commits fully. That’s also true in Oranienburg’s historic shooting club, where he quickly became an active member – and shortly after, won the title of Schützenkönig. Not because he aimed for it, but because wherever he goes, he steps up.",
-      "para2":"Privately, Heiko is a man with strong family values. He lives in close, harmonious connection with his wife, his son, and his brothers. He maintains friendships with the same reliability he brings to his professional and political life."
+    "list": {
+      "first": "Together instead of against each other: solutions based on impact, not party affiliation.",
+      "second": "Transparency & citizen proximity: listen, understand, shape together.",
+      "third": "Experience & expertise: 25+ years of entrepreneurship, city councilor (urban development & construction).",
+      "fourth": "Reliability & values: discipline, respect, responsibility, loyalty.",
+      "fifth": "Clear course: openness, clarity, and cooperation for a city with a future."
     }
   },
-  "footer":{
-    "top":{
-      "support":{
-        "supportus": "support us",
-        "secondText": "lorem ipsum"
+  "vision": {
+    "left": {
+      "title": {
+        "first": "Let’s make Oranienburg strong together"
       },
+      "para1": "I want politics to be closer to the people again. That good ideas are heard – regardless of who they come from. And that we make decisions in a way that creates tangible positive impact: for families, clubs, businesses, and those who love living here. If you have questions, suggestions, or concerns: talk to me. Together, we will shape an Oranienburg that moves into the future with heart, mind, and courage."
+    }
+  },
+  "footer": {
+    "top": {
+      "support": {
+        "supportus": "Your support matters"
+      },
+      "thanksForSupport": "Every contribution helps to make this vision a reality – through time, ideas, recommendations, or a donation. Thank you for your support!",
       "ibanText": "lorem ipsum dolor sit amet"
     },
-    "bottom":{
-      "left":{
+    "bottom": {
+      "left": {
         "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam",
         "text2": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione non nostrum."
       },
-      "right":{
-        "links":{
+      "right": {
+        "links": {
           "about": "About",
           "contact": "Contact",
           "toTop": "Back to top"
@@ -64,30 +72,30 @@
     }
   },
   "contact": {
-    "title": "Get in Touch",
+    "title": "Get in touch",
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "consent": "I agree to the processing of my personal data in order to be contacted.",
+    "consent": "I consent to the processing of my personal data in order to be contacted.",
     "privacyPolicy": "Privacy Policy",
     "submit": "send",
     "sending": "sending...",
-    "success": "Thank you! Your message has been sent successfully.",
+    "success": "Thank you! Your message has been successfully sent.",
     "error": "There was a problem sending your message."
   },
   "privacy": {
     "title": "Privacy Policy",
+    "intro": "The protection of your personal data is very important to us. On this website, you will learn which data we collect and how we use it.",
     "dataCollectionTitle": "Data Collection",
-    "intro": "Protecting your personal data is very important to us. This website explains what data we collect and how we use it.",
-    "dataCollection": "We only collect personal data that you voluntarily provide to us, for example via the contact form (name, email address). This data is used solely to handle your inquiries.",
+    "dataCollection": "We collect your personal data only if you voluntarily provide it to us, e.g., via the contact form (name, email address). We use this data exclusively to process your request.",
     "cookiesTitle": "Cookies",
-    "cookies": "Our website uses cookies to analyze site usage, save your language preferences, and ensure secure operation. You can disable cookies in your browser settings, but this may limit website functionality.",
+    "cookies": "Our website uses cookies to analyze site usage, store your language settings, and ensure secure operation. You can disable the use of cookies in your browser, but this may limit the website's functionality.",
     "dataProtectionRightsTitle": "Your Rights",
-    "dataProtectionRights": "You have the right to access, correct, delete, or restrict processing of your personal data at any time. To exercise these rights, please contact us via the contact details in the imprint.",
+    "dataProtectionRights": "You have the right at any time to receive information about your stored personal data as well as to request its correction, deletion, or restriction of processing. To exercise these rights, please contact us at the address stated in the imprint.",
     "legalBasisTitle": "Legal Basis",
-    "legalBasis": "Data processing is based on your consent (Art. 6 Para. 1 lit. a GDPR) and to comply with legal obligations.",
+    "legalBasis": "The processing of your data is based on your consent (Art. 6 para. 1 lit. a GDPR) and to fulfill legal obligations.",
     "contactTitle": "Contact",
-    "contact": "If you have any questions regarding data protection, please contact us at the address given in the imprint.",
+    "contact": "If you have questions about data protection, you can contact us at the address stated in the imprint.",
     "close": "Close"
   }
 }
