@@ -12,7 +12,7 @@
 }
 .about{
   overflow:hidden;
-  max-height:1500px;
+  max-height:1700px;
   position:relative;
   z-index: 3;
   background:#2a136d;
@@ -21,7 +21,7 @@
   padding-top:10rem;
   font-family: 'Mona Sans';
   &.expanded{
-    max-height:2000px;
+    max-height:3000px;
   }
   &__title{
     position:absolute;
@@ -69,7 +69,7 @@
           margin-top:15rem;
           max-width:800px;
           p{
-            font-size: clamp(1.125rem, 0.5rem + 2vw, 2rem);
+            font-size: clamp(1.125rem, 0.9138rem + 0.9655vw, 2rem);
             color:#b6976d;
             &.about__content--para{
               font-weight:600;
