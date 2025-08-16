@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  const pageUrl = 'Nuxt-Starter';
-  const pageTitle = 'Nuxt-Starter';
-  const pageDescription = 'Responsive, fast and modern Nuxt.js starter project';
+  const pageUrl = 'Heiko Zillmann';
+  const pageTitle = 'Candidate for Mayor of Oranienburg';
+  const pageDescription = 'Page of canditate for mayor of Oranienburg';
   useHead({
     htmlAttrs: {
       lang: 'pl'
