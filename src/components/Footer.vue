@@ -36,8 +36,8 @@
               <li><NuxtLink :to="localePath('impressum')">{{ $t('footer.bottom.left.links.impressum') }}</NuxtLink></li>
             </div>
             <div class="right">
-              <li><NuxtLink to="#About">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
-              <li><NuxtLink to="#Contact">{{ $t('footer.bottom.right.links.contact') }}</NuxtLink></li>
+              <li v-if="isHomePage"><NuxtLink to="#About">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
+              <li v-if="isHomePage"><NuxtLink to="#Contact">{{ $t('footer.bottom.right.links.contact') }}</NuxtLink></li>
               <li><NuxtLink to="#Navbar">{{ $t('footer.bottom.right.links.toTop') }}</NuxtLink></li>
             </div>
           </div>
@@ -52,4 +52,10 @@
 <script setup>
 import { useLocalePath } from '#imports'
 const localePath = useLocalePath()
+const route = useRoute()
+const isHomePage = computed(() => {
+  // dla stron z prefiksem języka, np. /en lub /de
+  const path = route.path.replace(/^\/(en|de)/, '')
+  return path === '/' || path === ''
+})
 </script>
