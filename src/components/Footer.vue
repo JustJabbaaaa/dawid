@@ -31,8 +31,9 @@
       <div class="footer__bottom">
           <div class="footer__bottom--top">
             <div class="left">
-              <!-- <h1>{{ $t('footer.bottom.left.text1') }}</h1> -->
-              <!-- <p>{{ $t('footer.bottom.left.text2') }}</p> -->
+              <li><NuxtLink :to="localePath('/')">{{ $t('footer.bottom.left.links.home') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('privacypolicy')">{{ $t('footer.bottom.left.links.privacypolicy') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('impressum')">{{ $t('footer.bottom.left.links.impressum') }}</NuxtLink></li>
             </div>
             <div class="right">
               <li><NuxtLink to="#About">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
@@ -48,3 +49,7 @@
       </div>
   </footer>
 </template>
+<script setup>
+import { useLocalePath } from '#imports'
+const localePath = useLocalePath()
+</script>

@@ -40,9 +40,9 @@
             <input id="consent" v-model="form.consent" type="checkbox" required />
             <label for="consent">
               {{ $t('contact.consent') }}
-              <button type="button" class="link-btn" @click="showPrivacy = true">
+              <NuxtLink :to="localePath('privacypolicy')" class="link-btn" >
                 {{ $t('contact.privacyPolicy') }}
-              </button>
+              </NuxtLink>
             </label>
           </div>
 
@@ -85,8 +85,9 @@
 <script setup>
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-
+import { useLocalePath } from '#imports'
 const { t } = useI18n()
+const localePath = useLocalePath()
 
 // Twój endpoint Formspree
 const FORMSPREE_URL = 'https://formspree.io/f/xnnzoebp'

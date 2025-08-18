@@ -58,8 +58,11 @@
     },
     "bottom": {
       "left": {
-        "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam",
-        "text2": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione non nostrum."
+        "links":{
+          "home": "Home",
+          "privacypolicy": "Privacy policy",
+          "impressum": "Impressum"
+        }
       },
       "right": {
         "links": {
@@ -86,19 +89,42 @@
     "success": "Thank you! Your message has been successfully sent.",
     "error": "There was a problem sending your message."
   },
+   "impressum": {
+    "title": "Impressum",
+    "company": {
+      "line1": "Information according to § 5 TMG",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg",
+      "line5": "Phone: 03301 6774880",
+      "line7": "Website: http://heiko-zillmann.de"
+    },
+    "responsible": {
+      "line1": "Responsible for content according to § 55 Abs. 2 RStV",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg"
+    },
+    "liability": "As service provider, we are responsible for our own content on these pages according to § 7 Abs.1 TMG. According to §§ 8 to 10 TMG, however, we are not obliged to monitor transmitted or stored external information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information according to general laws remain unaffected.",
+    "links": "Our offer contains links to external third-party websites, over which we have no influence on their content. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the content of the linked pages.",
+    "copyright": "The content and works created by the site operators on these pages are subject to German copyright law. Contributions from third parties are marked as such."
+  },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "The protection of your personal data is very important to us. On this website, you will learn which data we collect and how we use it.",
-    "dataCollectionTitle": "Data Collection",
-    "dataCollection": "We collect your personal data only if you voluntarily provide it to us, e.g., via the contact form (name, email address). We use this data exclusively to process your request.",
-    "cookiesTitle": "Cookies",
-    "cookies": "Our website uses cookies to analyze site usage, store your language settings, and ensure secure operation. You can disable the use of cookies in your browser, but this may limit the website's functionality.",
-    "dataProtectionRightsTitle": "Your Rights",
-    "dataProtectionRights": "You have the right at any time to receive information about your stored personal data as well as to request its correction, deletion, or restriction of processing. To exercise these rights, please contact us at the address stated in the imprint.",
-    "legalBasisTitle": "Legal Basis",
-    "legalBasis": "The processing of your data is based on your consent (Art. 6 para. 1 lit. a GDPR) and to fulfill legal obligations.",
-    "contactTitle": "Contact",
-    "contact": "If you have questions about data protection, you can contact us at the address stated in the imprint.",
-    "close": "Close"
+    "general": "Protecting your personal data is important to us. We handle your personal data confidentially and in accordance with legal data protection regulations (GDPR, BDSG).",
+    "responsible": {
+      "line1": "Responsible for data processing on this website is:",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg"
+    },
+    "data_collection": "When visiting this website, information is automatically collected (e.g., IP address, browser type, date/time). This data is technically necessary to display the website and is automatically generated.",
+    "cookies": "Our website may use cookies. They help make our offer more user-friendly. You can disable cookies in your browser settings.",
+    "server_logs": "The provider of the pages automatically collects and stores information in so-called server log files that your browser automatically transmits.",
+    "contact_form": "If you contact us via the contact form or email, your details will be stored for processing your request. We do not share this data without your consent.",
+    "plugins_tools": "If external content (e.g., YouTube, Facebook, Instagram, Google Maps) is integrated, a connection to the respective servers may be established when visiting the page. Personal data (e.g., IP address) may be transmitted.",
+    "rights": "You have the right to access your stored personal data, its origin, recipients, and the purpose of data processing at any time. You also have the right to correction, blocking, or deletion of your data.",
+    "complaints": "You have the right to lodge a complaint with the competent data protection supervisory authority regarding the processing of your personal data.",
+    "ssl": "This site uses SSL encryption for security reasons."
   }
 }

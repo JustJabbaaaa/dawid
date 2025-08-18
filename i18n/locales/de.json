@@ -58,8 +58,11 @@
     },
     "bottom": {
       "left": {
-        "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam",
-        "text2": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione non nostrum."
+        "links":{
+          "home": "Home",
+          "privacypolicy": "Datenschutzrichtlinie",
+          "impressum": "Impressum"
+        }
       },
       "right": {
         "links":{
@@ -86,19 +89,42 @@
     "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
     "error": "Es gab ein Problem beim Senden Ihrer Nachricht."
   },
+  "impressum": {
+    "title": "Impressum",
+    "company": {
+      "line1": "Angaben gemäß § 5 TMG",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg",
+      "line5": "Telefon: 03301 6774880",
+      "line7": "Webseite: http://heiko-zillmann.de"
+    },
+    "responsible": {
+      "line1": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg"
+    },
+    "liability": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten verantwortlich. Nach §§ 8 bis 10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.",
+    "links": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+    "copyright": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet."
+  },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "intro": "Der Schutz Ihrer persönlichen Daten ist uns sehr wichtig. Auf dieser Webseite erfahren Sie, welche Daten wir erheben und wie wir sie verwenden.",
-    "dataCollectionTitle": "Datenerhebung",
-    "dataCollection": "Wir erheben Ihre personenbezogenen Daten nur, wenn Sie uns diese freiwillig, z.B. über das Kontaktformular (Name, E-Mail-Adresse), mitteilen. Diese Daten verwenden wir ausschließlich zur Bearbeitung Ihrer Anfrage.",
-    "cookiesTitle": "Cookies",
-    "cookies": "Unsere Website verwendet Cookies, um die Nutzung der Seite zu analysieren, Ihre Spracheinstellungen zu speichern und den sicheren Betrieb zu gewährleisten. Sie können die Verwendung von Cookies in Ihrem Browser deaktivieren, jedoch kann dies die Funktionalität der Website einschränken.",
-    "dataProtectionRightsTitle": "Ihre Rechte",
-    "dataProtectionRights": "Sie haben das Recht, jederzeit Auskunft über Ihre gespeicherten personenbezogenen Daten zu erhalten sowie deren Berichtigung, Löschung oder Einschränkung der Verarbeitung zu verlangen. Zur Ausübung dieser Rechte wenden Sie sich bitte an die im Impressum genannten Kontaktdaten.",
-    "legalBasisTitle": "Rechtsgrundlage",
-    "legalBasis": "Die Verarbeitung Ihrer Daten erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und zur Erfüllung rechtlicher Verpflichtungen.",
-    "contactTitle": "Kontakt",
-    "contact": "Für Fragen zum Datenschutz können Sie uns unter der im Impressum angegebenen Adresse kontaktieren.",
-    "close": "Schließen"
+    "general": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften (DSGVO, BDSG).",
+    "responsible": {
+      "line1": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+      "line2": "Heiko Zillmann",
+      "line3": "Melanchthonstraße 15",
+      "line4": "16515 Oranienburg"
+    },
+    "data_collection": "Beim Besuch dieser Website werden automatisch Informationen erhoben (z. B. IP-Adresse, Browsertyp, Datum/Uhrzeit). Diese Daten sind technisch erforderlich, um die Website anzuzeigen, und fallen automatisch an.",
+    "cookies": "Unsere Website verwendet ggf. Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher zu machen. In Ihren Browsereinstellungen können Sie Cookies deaktivieren.",
+    "server_logs": "Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt.",
+    "contact_form": "Falls Sie uns per Kontaktformular oder E-Mail Anfragen zukommen lassen, werden Ihre Angaben zwecks Bearbeitung gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+    "plugins_tools": "Falls auf der Website externe Inhalte (z. B. YouTube, Facebook, Instagram, Google Maps) eingebunden sind, kann beim Aufrufen der Seite eine Verbindung zu den Servern des jeweiligen Anbieters hergestellt werden. Dabei können personenbezogene Daten (z. B. IP-Adresse) übermittelt werden.",
+    "rights": "Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Außerdem haben Sie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.",
+    "complaints": "Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren.",
+    "ssl": "Diese Seite nutzt aus Sicherheitsgründen eine SSL-Verschlüsselung."
   }
 }
