@@ -21,9 +21,18 @@
         </section>
 
         <section class="text">
-            <p>{{ $t('impressum.liability') }}</p>
-            <p>{{ $t('impressum.links') }}</p>
-            <p>{{ $t('impressum.copyright') }}</p>
+            <div class="subsection">
+                <h3>{{ $t('impressum.liability.header') }}</h3>
+                <p>{{ $t('impressum.liability.text') }}</p>
+            </div>
+            <div class="subsection">
+                <h3>{{ $t('impressum.links.header') }}</h3>
+                <p>{{ $t('impressum.links.text') }}</p>
+            </div>
+            <div class="subsection">
+                <h3>{{ $t('impressum.copyright.header') }}</h3>
+                <p>{{ $t('impressum.copyright.text') }}</p>
+            </div>
         </section>
     </Section>
     <Footer />
@@ -39,6 +48,10 @@ h1{
 h2{
     font-size:1.75rem;
     margin-bottom:.5rem;
+}
+h3{
+    font-size:1.5rem;
+    margin-bottom:0.25rem;
 }
  p{
     margin-bottom:1rem;

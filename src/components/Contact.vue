@@ -2,11 +2,8 @@
   <Section anchor="Contact" class="contact" grid="2">
     <div class="contact__text">
       <div class="name">Heiko Zillmann</div>
-      <div class="number">+49 (0) 30 1234 5678</div>
-      <div class="email">contact@heikozillman.com</div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quasi earum maiores dolore animi ea odio fugiat magnam facilis necessitatibus sequi excepturi, repellendus et. Iste obcaecati eaque est consequatur quos.
-      </p>
+      <div class="number">03301 6774880</div>
+      <div class="email">info@heiko-zillmann.de</div>
     </div>
     <div class="contact__wrapper">
       <div class="title">
@@ -21,7 +18,7 @@
 
           <div class="form-group">
             <!-- <label for="message">{{ $t('contact.message') }} <span class="required">*</span></label> -->
-            <textarea id="message" v-model="form.message" required rows="5"></textarea>
+            <textarea id="message" :placeholder="$t('contact.yourmessage')" v-model="form.message" required rows="5"></textarea>
           </div>
 
           <div class="form-row">
@@ -90,7 +87,7 @@ const { t } = useI18n()
 const localePath = useLocalePath()
 
 // Twój endpoint Formspree
-const FORMSPREE_URL = 'https://formspree.io/f/xnnzoebp'
+const FORMSPREE_URL = 'https://formspree.io/f/mkgzaaab'
 
 const form = ref({
   name: '',

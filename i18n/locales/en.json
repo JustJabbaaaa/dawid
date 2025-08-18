@@ -87,9 +87,10 @@
     "submit": "send",
     "sending": "sending...",
     "success": "Thank you! Your message has been successfully sent.",
-    "error": "There was a problem sending your message."
+    "error": "There was a problem sending your message.",
+    "yourmessage": "Your message"
   },
-   "impressum": {
+  "impressum": {
     "title": "Impressum",
     "company": {
       "line1": "Information according to § 5 TMG",
@@ -105,26 +106,64 @@
       "line3": "Melanchthonstraße 15",
       "line4": "16515 Oranienburg"
     },
-    "liability": "As service provider, we are responsible for our own content on these pages according to § 7 Abs.1 TMG. According to §§ 8 to 10 TMG, however, we are not obliged to monitor transmitted or stored external information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information according to general laws remain unaffected.",
-    "links": "Our offer contains links to external third-party websites, over which we have no influence on their content. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the content of the linked pages.",
-    "copyright": "The content and works created by the site operators on these pages are subject to German copyright law. Contributions from third parties are marked as such."
+    "liability":{
+      "header": "Liability for content",
+      "text": "As service provider, we are responsible for our own content on these pages according to § 7 Abs.1 TMG. According to §§ 8 to 10 TMG, however, we are not obliged to monitor transmitted or stored external information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information according to general laws remain unaffected."
+    },
+    "links": {
+      "header": "Liability for links",
+      "text": "Our offer contains links to external third-party websites, over which we have no influence on their content. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the content of the linked pages."
+    },
+    "copyright": {
+      "header": "Copyright",
+      "text": "The content and works created by the site operators on these pages are subject to German copyright law. Contributions from third parties are marked as such."
+    }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "general": "Protecting your personal data is important to us. We handle your personal data confidentially and in accordance with legal data protection regulations (GDPR, BDSG).",
-    "responsible": {
-      "line1": "Responsible for data processing on this website is:",
-      "line2": "Heiko Zillmann",
-      "line3": "Melanchthonstraße 15",
-      "line4": "16515 Oranienburg"
-    },
-    "data_collection": "When visiting this website, information is automatically collected (e.g., IP address, browser type, date/time). This data is technically necessary to display the website and is automatically generated.",
-    "cookies": "Our website may use cookies. They help make our offer more user-friendly. You can disable cookies in your browser settings.",
-    "server_logs": "The provider of the pages automatically collects and stores information in so-called server log files that your browser automatically transmits.",
-    "contact_form": "If you contact us via the contact form or email, your details will be stored for processing your request. We do not share this data without your consent.",
-    "plugins_tools": "If external content (e.g., YouTube, Facebook, Instagram, Google Maps) is integrated, a connection to the respective servers may be established when visiting the page. Personal data (e.g., IP address) may be transmitted.",
-    "rights": "You have the right to access your stored personal data, its origin, recipients, and the purpose of data processing at any time. You also have the right to correction, blocking, or deletion of your data.",
-    "complaints": "You have the right to lodge a complaint with the competent data protection supervisory authority regarding the processing of your personal data.",
-    "ssl": "This site uses SSL encryption for security reasons."
+  "title": "Privacy Policy",
+  "general": {
+    "header": "General",
+    "text": "The protection of your personal data is important to us. We handle your personal data confidentially and in accordance with the statutory data protection regulations (GDPR, BDSG)."
+  },
+  "responsible": {
+    "header": "Responsible Party",
+    "line1": "The person responsible for data processing on this website is:",
+    "line2": "Heiko Zillmann",
+    "line3": "Melanchthonstraße 15",
+    "line4": "16515 Oranienburg"
+  },
+  "data_collection": {
+    "header": "Collection and Storage of Personal Data",
+    "text": "When visiting this website, information is automatically collected (e.g., IP address, browser type, date/time). This data is technically necessary to display the website and is collected automatically."
+  },
+  "cookies": {
+    "header": "Cookies",
+    "text": "Our website may use cookies. They help make our offer more user-friendly. You can disable cookies in your browser settings."
+  },
+  "server_logs": {
+    "header": "Server Log Files",
+    "text": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits."
+  },
+  "contact_form": {
+    "header": "Contact Form / Email",
+    "text": "If you contact us via the contact form or email, your information will be stored for the purpose of processing your request. We do not share this data without your consent."
+  },
+  "plugins_tools": {
+    "header": "Plugins & Tools (e.g., Social Media, Maps, Videos)",
+    "text": "If external content (e.g., YouTube, Facebook, Instagram, Google Maps) is embedded on the website, a connection to the servers of the respective provider may be established when the page is accessed. Personal data (e.g., IP address) may be transmitted."
+  },
+  "rights": {
+    "header": "Your Rights",
+    "text": "You have the right at any time to obtain information about your stored personal data, their origin and recipients, as well as the purpose of data processing. You also have the right to correct, block, or delete this data."
+  },
+  "complaints": {
+    "header": "Right to Lodge a Complaint",
+    "text": "You have the right to lodge a complaint with the competent data protection supervisory authority regarding the processing of your personal data."
+  },
+  "ssl": {
+    "header": "SSL Encryption",
+    "text": "This site uses SSL encryption for security reasons."
   }
+}
+
 }

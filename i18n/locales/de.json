@@ -87,7 +87,8 @@
     "submit": "absenden",
     "sending": "senden...",
     "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
-    "error": "Es gab ein Problem beim Senden Ihrer Nachricht."
+    "error": "Es gab ein Problem beim Senden Ihrer Nachricht.",
+    "yourmessage": "Ihre Nachricht"
   },
   "impressum": {
     "title": "Impressum",
@@ -105,26 +106,63 @@
       "line3": "Melanchthonstraße 15",
       "line4": "16515 Oranienburg"
     },
-    "liability": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten verantwortlich. Nach §§ 8 bis 10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.",
-    "links": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
-    "copyright": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet."
+    "liability":{
+      "header": "Haftung für Inhalte",
+      "text": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten verantwortlich. Nach §§ 8 bis 10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt."
+    },
+    "links": {
+      "header": "Haftung für Links",
+      "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+    },
+    "copyright": {
+      "header": "Urheberrecht",
+      "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet."
+    }
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "general": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften (DSGVO, BDSG).",
+    "general":{
+      "header":"Allgemeines",
+      "text": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften (DSGVO, BDSG)."
+    } ,
     "responsible": {
+      "header": "Verantwortlicher",
       "line1": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
       "line2": "Heiko Zillmann",
       "line3": "Melanchthonstraße 15",
       "line4": "16515 Oranienburg"
     },
-    "data_collection": "Beim Besuch dieser Website werden automatisch Informationen erhoben (z. B. IP-Adresse, Browsertyp, Datum/Uhrzeit). Diese Daten sind technisch erforderlich, um die Website anzuzeigen, und fallen automatisch an.",
-    "cookies": "Unsere Website verwendet ggf. Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher zu machen. In Ihren Browsereinstellungen können Sie Cookies deaktivieren.",
-    "server_logs": "Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt.",
-    "contact_form": "Falls Sie uns per Kontaktformular oder E-Mail Anfragen zukommen lassen, werden Ihre Angaben zwecks Bearbeitung gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
-    "plugins_tools": "Falls auf der Website externe Inhalte (z. B. YouTube, Facebook, Instagram, Google Maps) eingebunden sind, kann beim Aufrufen der Seite eine Verbindung zu den Servern des jeweiligen Anbieters hergestellt werden. Dabei können personenbezogene Daten (z. B. IP-Adresse) übermittelt werden.",
-    "rights": "Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Außerdem haben Sie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.",
-    "complaints": "Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren.",
-    "ssl": "Diese Seite nutzt aus Sicherheitsgründen eine SSL-Verschlüsselung."
+    "data_collection": {
+      "header": "Erhebung und Speicherung personenbezogener Daten",
+      "text": "Beim Besuch dieser Website werden automatisch Informationen erhoben (z. B. IP-Adresse, Browsertyp, Datum/Uhrzeit). Diese Daten sind technisch erforderlich, um die Website anzuzeigen, und fallen automatisch an."
+    },
+    "cookies": {
+      "header": "Cookies",
+      "text": "Unsere Website verwendet ggf. Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher zu machen. In Ihren Browsereinstellungen können Sie Cookies deaktivieren."
+    },
+    "server_logs": {
+      "header": "Server-Log-Dateien",
+      "text": "Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt."
+    },
+    "contact_form": {
+      "header": "Kontaktformular / E-Mail",
+      "text": "Wenn Sie uns per Kontaktformular oder E-Mail Anfragen zukommen lassen, werden Ihre Angaben zwecks Bearbeitung gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+    },
+    "plugins_tools": {
+      "header": "Plugins & Tools (z. B. Social Media, Karten, Videos)",
+      "text": "Falls auf der Website externe Inhalte (z. B. YouTube, Facebook, Instagram, Google Maps) eingebunden sind, kann beim Aufrufen der Seite eine Verbindung zu den Servern des jeweiligen Anbieters hergestellt werden. Dabei können personenbezogene Daten (z. B. IP-Adresse) übermittelt werden."
+    },
+    "rights": {
+      "header":"Ihre Rechte",
+      "text": "Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Außerdem haben Sie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten."
+    },
+    "complaints": {
+      "header": "Beschwerderecht",
+      "text": "Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren."
+    },
+    "ssl": {
+      "header": "SSL-Verschlüsselung",
+      "text": "Diese Seite nutzt aus Sicherheitsgründen eine SSL-Verschlüsselung."
+    }
   }
 }

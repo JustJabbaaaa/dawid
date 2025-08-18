@@ -25,6 +25,8 @@
         flex-direction: column;
         text-align:left;
         gap:1px;
+        justify-content: center;
+        align-items: center;
         .name,.number,.email{
             font-size: clamp(1rem, -0.25rem + 4vw, 2rem);
             font-weight:600;

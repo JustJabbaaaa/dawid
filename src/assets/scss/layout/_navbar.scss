@@ -9,10 +9,10 @@
   background:radial-gradient(circle at bottom, #3a1ba0 0%, #220f5a 75%);
   &.subpage{
     width:100vw;
-    padding:1rem;
+    padding:3rem;
      @media screen and (max-width:1366px){
       width:100%;
-      padding: 1rem;
+      padding: 3rem;
     }
     .nav{
       &__buttons{
