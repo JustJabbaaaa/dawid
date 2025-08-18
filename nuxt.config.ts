@@ -7,6 +7,12 @@ export default defineNuxtConfig({
   css: [
     'assets/scss/style.scss',
   ],
+   app: {
+    head: {
+      title: 'Heiko Zillmann',       // domyślny tytuł
+      titleTemplate: '%s'            // usuwa "| nuxt-starter"
+    }
+  },
 
   modules: [ 
     '@nuxtjs/seo',
@@ -22,7 +28,7 @@ export default defineNuxtConfig({
     defaultLocale: 'de',
   },
   site: {
-    url: '',
+    url: 'heiko-zillmann.de',
   },
 
   robots: { robotsTxt: false },

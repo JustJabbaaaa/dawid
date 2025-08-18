@@ -19,7 +19,7 @@
             IBAN 00 0100 0000 1234 5678 9100
           </div>
           <div class="text">
-            {{$t('footer.top.ibanText')}}
+            <!-- {{$t('footer.top.ibanText')}} -->
           </div>
           <div class="paymentIcons">
             <NuxtImg src="/images/footer/paypal.svg"/>
@@ -31,8 +31,8 @@
       <div class="footer__bottom">
           <div class="footer__bottom--top">
             <div class="left">
-              <h1>{{ $t('footer.bottom.left.text1') }}</h1>
-              <p>{{ $t('footer.bottom.left.text2') }}</p>
+              <!-- <h1>{{ $t('footer.bottom.left.text1') }}</h1> -->
+              <!-- <p>{{ $t('footer.bottom.left.text2') }}</p> -->
             </div>
             <div class="right">
               <li><NuxtLink to="#About">{{ $t('footer.bottom.right.links.about') }}</NuxtLink></li>
@@ -42,7 +42,7 @@
           </div>
           <hr>
           <div class="footer__bottom--bot">
-            <p>{{$t('footer.bottom.right.text')}}</p>
+            <!-- <p>{{$t('footer.bottom.right.text')}}</p> -->
           </div>
         </div>
       </div>

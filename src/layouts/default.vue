@@ -18,7 +18,7 @@
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: '/images/vision/herb.webp'
       },
     ],
   });
@@ -29,12 +29,12 @@
     twitterTitle: pageTitle,
     twitterDescription: pageDescription,
   })
-  defineOgImageComponent('NuxtSeo', {
-    title: pageUrl + '👋',
-    description: pageDescription,
-    theme: '#e13428',
-    colorMode: 'dark',
-  })
+  // defineOgImageComponent('NuxtSeo', {
+  //   title: pageUrl + '👋',
+  //   description: pageDescription,
+  //   theme: '#e13428',
+  //   colorMode: 'dark',
+  // })
 </script>
 
 <template>

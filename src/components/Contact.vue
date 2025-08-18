@@ -10,7 +10,7 @@
     </div>
     <div class="contact__wrapper">
       <div class="title">
-        <h2>Your feedback<br/><span>is valuable to me</span></h2>
+        <h2>{{ $t('contact.yourfeedback') }}<br/><span>{{ $t('contact.isvaluable') }}</span></h2>
       </div>
 
       <form @submit.prevent="handleSubmit" class="contact__form">
@@ -26,7 +26,7 @@
 
           <div class="form-row">
             <div class="form-group email-field">
-              <label for="email">Your e-mail <span class="required">*</span></label>
+              <label for="email">{{ $t('contact.yourmail') }} <span class="required">*</span></label>
               <input id="email" v-model="form.email" type="email" required />
             </div>
 

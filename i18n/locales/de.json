@@ -72,6 +72,9 @@
     }
   },
   "contact": {
+    "yourfeedback": "Ihr Feedback",
+    "isvaluable": "ist mir wichtig",
+    "yourmail": "Ihre E-Mail",
     "title": "Kontakt aufnehmen",
     "name": "Name",
     "email": "E-Mail",
