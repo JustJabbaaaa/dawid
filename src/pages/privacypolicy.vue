@@ -66,6 +66,7 @@ h1{
 }
 .nonumered li{
     list-style-type:none;
+    font-size:1rem;
 }
 h2{
     font-size:1.75rem;

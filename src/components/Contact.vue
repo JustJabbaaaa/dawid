@@ -2,8 +2,7 @@
   <Section anchor="Contact" class="contact" grid="2">
     <div class="contact__text">
       <div class="name">Heiko Zillmann</div>
-      <div class="number">03301 6774880</div>
-      <div class="email">info@heiko-zillmann.de</div>
+      <div class="email">Info@heiko-zillmann.de</div>
     </div>
     <div class="contact__wrapper">
       <div class="title">

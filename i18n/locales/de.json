@@ -1,8 +1,8 @@
 {
   "navbar": {
     "logo": {
-      "yourCandidate": "Ihr Kandidat für",
-      "mayor": "Bürgermeister von"
+      "yourCandidate": "Ihr Kandidat für ",
+      "mayor": "das Amt des Bürgermeister von"
     },
     "links": {
       "about": "Über",
@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "Aus Oranienburg – für Oranienburg",
-    "header": "Ich bin 56 Jahre alt – geboren und aufgewachsen in Oranienburg und dadurch tief mit unserer Heimatstadt verwurzelt.",
+    "header": "Für eine Stadt mit Herz, Verstand und Zukunft - offen, klar und gemeinsam.",
     "para1": "Geprägt hat mich vor allem der Sport. Mit 8 Jahren begann ich zu boxen, später kam das Kickboxen dazu. Der Sport gab mir Halt, Selbstvertrauen und Stärke - auch in schwierigen Zeiten.",
     "para2": "Viele Jahre habe ich mich in der Kinder - und Jugendarbeit als Trainer eingebracht: nicht nur Techniken vermittelt, sondern Werte wie Disziplin, gegenseitigen Respekt und Verantwortung weitergegeben. Gleich nach meiner Ausbildung habe ich mich für den Weg der Selbständigkeit entschieden. Seit über 25 lahren bin ich unternehmerisch aktiv – in den Bereichen Immobilien, Personalmanagement und Dienstleistungen. Ich habe Unternehmen aufgebaut, Arbeitsplätze geschaffen, Menschen verbunden und Lösungen entwickelt, wo andere Probleme sahen.",
     "paraExpanded": " Ich kann von mir behaupten, dass ich mich auf diesem Weg zu einem gestandenen Mann und Unternehmer entwickelt habe. Mir sind eine konsequente Haltung, Verlässlichkeit, Bodenständigkeit und Loyalität sehr wichtig. Ich weiß, was es heißt, Entscheidungen zu treffen und Risiken zu tragen. Als Stadtverordneter habe ich mich insbesondere in den Bereichen Stadtentwicklung und Bauen engagiert - immer mit dem Ziel, Oranienburg nachhaltig voranzubringen.",
@@ -35,7 +35,7 @@
     "list":{
       "first": "Gemeinsam statt gegeneinander: Lösungen nach Wirkung, nicht nach Parteibuch.",
       "second": "Transparenz & Bürgernähe: zuhören, verstehen, gemeinsam gestalten.",
-      "third": "Erfahrung & Sachverstand: 25+ Jahre Unternehmertum, Stadtverordneter (Stadtentwicklung & Bauen).",
+      "third": "Erfahrung & Sachverstand: 25+ Jahre Unternehmertum, Stadtverordneter.",
       "fourth": "Verlässlichkeit & Werte: Disziplin, Respekt, Verantwortung, Loyalität.",
       "fifth": "Klarer Kurs: Offenheit, Klarheit und Miteinander für eine Stadt mit Zukunft."
     }
@@ -45,7 +45,7 @@
       "title": {
         "first": "Machen wir Oranienburg gemeinsam stark"
       },
-      "para1": "Ich möchte, dass Politik wieder näher bei den Menschen ist. Dass gute Ideen Gehör finden – unabhängig davon, von wem sie kommen. Und dass wir Entscheidungen so treffen, dass sie spürbar Gutes bewirken: für Familien, Vereine, Betriebe und die, die hier gern leben. Wenn Sie Fragen, Anregungen oder Anliegen haben: Sprechen Sie mich an. Gemeinsam gestalten wir ein Oranienburg, das mit Herz, Verstand und Mut in die Zukunft geht"
+      "para1": "Ich möchte, dass Politik wieder näher bei den Menschen ist. Dass gute Ideen Gehör finden – unabhängig davon, von wem sie kommen. Und dass wir Entscheidungen so treffen, dass sie spürbar Gutes bewirken: für Familien, Vereine, Betriebe und die, die hier gern leben. Wenn Sie Fragen, Anregungen oder Anliegen haben: Sprechen Sie mich an. Gemeinsam gestalten wir ein Oranienburg, das mit Herz, Verstand und Mut in die Zukunft geht."
     }
   },
   "footer": {
@@ -53,7 +53,7 @@
       "support": {
         "supportus": "Ihre Unterstützung zählt"
       },
-      "thanksForSupport": "Jeder Beitrag hilft, diese Vision Wirklichkeit werden zu lassen – durch Zeit, Ideen, Weiterempfehlungen oder eine Spende. Vielen Dank für Ihre Unterstützung!",
+      "thanksForSupport": "Jeder Beitrag hilft, diese Vision Wirklichkeit werden zu lassen – durch Zeit, Ideen, Weiterempfehlungen oder einer Spende. Vielen Dank für Ihre Unterstützung!",
       "ibanText": "lorem ipsum dolor sit amet"
     },
     "bottom": {

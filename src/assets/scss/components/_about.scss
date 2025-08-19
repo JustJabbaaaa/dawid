@@ -66,7 +66,7 @@
       z-index:1;
       .about__content{
         &--description{
-          margin-top:15rem;
+          margin-top:8rem;
           max-width:800px;
           p{
             font-size: clamp(1.125rem, 0.9138rem + 0.9655vw, 2rem);
@@ -150,7 +150,7 @@
       &--imgText{
         gap:1rem;
         .about__content--description{
-          margin-top:8rem;
+          margin-top:4rem;
         }
       }
     }

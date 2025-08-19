@@ -16,7 +16,8 @@
             {{ $t('footer.top.thanksForSupport') }}
           </div>
           <div class="number">
-            IBAN 00 0100 0000 1234 5678 9100
+            Wahlkampfkonto Heiko Zillmann<br>
+            DE85 1605 0000 1000 7090 31
           </div>
           <div class="text">
             <!-- {{$t('footer.top.ibanText')}} -->
