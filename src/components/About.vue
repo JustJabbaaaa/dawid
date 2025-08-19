@@ -19,7 +19,7 @@
                 <NuxtImg class="photo" src="/images/about/about_photo.webp"/>
               </div>
               <div class="about__content--description">
-                <p class="about__content--para">
+                <p class="about__content--text">
                   {{ $t('about.para1') }}
                 </p>
                 <p class="about__content--text">
