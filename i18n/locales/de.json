@@ -1,8 +1,8 @@
 {
   "navbar": {
     "logo": {
-      "yourCandidate": "Ihr Kandidat für ",
-      "mayor": "das Amt des Bürgermeister von"
+      "yourCandidate": "Ihr Kandidat für das Amt des ",
+      "mayor": "Bürgermeister von"
     },
     "links": {
       "about": "Über",
